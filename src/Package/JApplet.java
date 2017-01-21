@@ -338,6 +338,28 @@ public class JApplet extends javax.swing.JApplet {
         RB_T29_2 = new javax.swing.JRadioButton();
         RB_T29_3 = new javax.swing.JRadioButton();
         RB_T29_4 = new javax.swing.JRadioButton();
+        PTask_30 = new javax.swing.JPanel();
+        jLabel105 = new javax.swing.JLabel();
+        B_T_30 = new javax.swing.JButton();
+        jLabel106 = new javax.swing.JLabel();
+        RB_T30_1 = new javax.swing.JRadioButton();
+        RB_T30_2 = new javax.swing.JRadioButton();
+        RB_T30_3 = new javax.swing.JRadioButton();
+        RB_T30_4 = new javax.swing.JRadioButton();
+        RB_T30_5 = new javax.swing.JRadioButton();
+        RB_T30_6 = new javax.swing.JRadioButton();
+        RB_T30_7 = new javax.swing.JRadioButton();
+        RB_T30_8 = new javax.swing.JRadioButton();
+        PTask_31 = new javax.swing.JPanel();
+        jLabel109 = new javax.swing.JLabel();
+        B_T_31 = new javax.swing.JButton();
+        jLabel110 = new javax.swing.JLabel();
+        RB_T31_1 = new javax.swing.JRadioButton();
+        RB_T31_2 = new javax.swing.JRadioButton();
+        RB_T31_3 = new javax.swing.JRadioButton();
+        RB_T31_4 = new javax.swing.JRadioButton();
+        RB_T31_5 = new javax.swing.JRadioButton();
+        RB_T31_6 = new javax.swing.JRadioButton();
         EPanel_1 = new javax.swing.JPanel();
         jLabel14 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
@@ -422,6 +444,12 @@ public class JApplet extends javax.swing.JApplet {
         EPanel_29 = new javax.swing.JPanel();
         jLabel104 = new javax.swing.JLabel();
         jButton29 = new javax.swing.JButton();
+        EPanel_30 = new javax.swing.JPanel();
+        jLabel107 = new javax.swing.JLabel();
+        jButton30 = new javax.swing.JButton();
+        EPanel_31 = new javax.swing.JPanel();
+        jLabel108 = new javax.swing.JLabel();
+        jButton31 = new javax.swing.JButton();
         PEnd = new javax.swing.JPanel();
         LEnd = new javax.swing.JLabel();
 
@@ -1946,6 +1974,109 @@ public class JApplet extends javax.swing.JApplet {
 
         MainPanel.add(PTask_29, "CTask_29");
 
+        PTask_30.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel105.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel105.setText("<html>На що замінюємо базисний вектор P<sub>7</sub> в другій таблиці?</html>");
+        PTask_30.add(jLabel105, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 20, 460, 60));
+
+        B_T_30.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        B_T_30.setText("Наступне питання");
+        B_T_30.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                B_T_30ActionPerformed(evt);
+            }
+        });
+        PTask_30.add(B_T_30, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 310, -1, -1));
+
+        jLabel106.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel106.setText("Виберіть правильну відповідь:");
+        PTask_30.add(jLabel106, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 80, -1, -1));
+
+        RB_T30_1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        RB_T30_1.setText("Базис не змінюється");
+        PTask_30.add(RB_T30_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 130, -1, -1));
+
+        RB_T30_2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        RB_T30_2.setText("<html>P<sub>1</sub></html>");
+        PTask_30.add(RB_T30_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 160, -1, -1));
+
+        RB_T30_3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        RB_T30_3.setText("<html>P<sub>2</sub></html>");
+        PTask_30.add(RB_T30_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 190, -1, -1));
+
+        RB_T30_4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        RB_T30_4.setText("<html>P<sub>3</sub></html>");
+        PTask_30.add(RB_T30_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 220, -1, -1));
+
+        RB_T30_5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        RB_T30_5.setText("<html>P<sub>4</sub></html>");
+        PTask_30.add(RB_T30_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 130, -1, -1));
+
+        RB_T30_6.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        RB_T30_6.setText("<html>P<sub>5</sub></html>");
+        PTask_30.add(RB_T30_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 160, -1, -1));
+
+        RB_T30_7.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        RB_T30_7.setText("<html>P<sub>6</sub></html>");
+        PTask_30.add(RB_T30_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 190, -1, -1));
+
+        RB_T30_8.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        RB_T30_8.setText("Викреслюємо рядок");
+        PTask_30.add(RB_T30_8, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 220, -1, -1));
+
+        MainPanel.add(PTask_30, "CTask_30");
+
+        PTask_31.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel109.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel109.setText("<html>На що замінюємо базисний вектор P<sub>7</sub> в другій таблиці?</html>");
+        PTask_31.add(jLabel109, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 20, 460, 60));
+
+        B_T_31.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        B_T_31.setText("Наступне питання");
+        B_T_31.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                B_T_31ActionPerformed(evt);
+            }
+        });
+        PTask_31.add(B_T_31, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 310, -1, -1));
+
+        jLabel110.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel110.setText("Виберіть правильну відповідь:");
+        PTask_31.add(jLabel110, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 80, -1, -1));
+
+        RB_T31_1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        RB_T31_1.setText("0");
+        PTask_31.add(RB_T31_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 130, -1, -1));
+
+        RB_T31_2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        RB_T31_2.setText("1");
+        RB_T31_2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                RB_T31_2ActionPerformed(evt);
+            }
+        });
+        PTask_31.add(RB_T31_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 160, -1, -1));
+
+        RB_T31_3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        RB_T31_3.setText("2");
+        PTask_31.add(RB_T31_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 190, -1, -1));
+
+        RB_T31_4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        RB_T31_4.setText("-3");
+        PTask_31.add(RB_T31_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 130, -1, -1));
+
+        RB_T31_5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        RB_T31_5.setText("6");
+        PTask_31.add(RB_T31_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 160, -1, -1));
+
+        RB_T31_6.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        RB_T31_6.setText("-6");
+        PTask_31.add(RB_T31_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 190, -1, -1));
+
+        MainPanel.add(PTask_31, "CTask_31");
+
         EPanel_1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel14.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -2421,6 +2552,40 @@ public class JApplet extends javax.swing.JApplet {
         EPanel_29.add(jButton29, new org.netbeans.lib.awtextra.AbsoluteConstraints(436, 286, -1, -1));
 
         MainPanel.add(EPanel_29, "ECTask_29");
+
+        EPanel_30.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel107.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel107.setText("<html><center>Базисний вектор змінюється на значення, яке було в напрямному стовпці, в даному прикладі P<sub>7</sub> замінюється на P<sub>3</sub></center></html>");
+        EPanel_30.add(jLabel107, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 100, 520, 130));
+
+        jButton30.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jButton30.setText("Наступний крок");
+        jButton30.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton30ActionPerformed(evt);
+            }
+        });
+        EPanel_30.add(jButton30, new org.netbeans.lib.awtextra.AbsoluteConstraints(436, 286, -1, -1));
+
+        MainPanel.add(EPanel_30, "ECTask_30");
+
+        EPanel_31.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel108.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel108.setText("<html><center>При заміні базису елемент в С<sub>б</sub> змінюється на коефіцієнт в цільовій функції біля, змінної що ввійшла в базис</center></html>");
+        EPanel_31.add(jLabel108, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, 480, 130));
+
+        jButton31.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jButton31.setText("Наступний крок");
+        jButton31.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton31ActionPerformed(evt);
+            }
+        });
+        EPanel_31.add(jButton31, new org.netbeans.lib.awtextra.AbsoluteConstraints(436, 286, -1, -1));
+
+        MainPanel.add(EPanel_31, "ECTask_31");
 
         PEnd.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -3016,6 +3181,34 @@ public class JApplet extends javax.swing.JApplet {
     private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
         StepIndex();
     }//GEN-LAST:event_jButton29ActionPerformed
+
+    private void B_T_30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B_T_30ActionPerformed
+        if(RB_T30_4.isSelected() == true){
+            StepIndex();
+        }else{
+            StepError();
+        }
+    }//GEN-LAST:event_B_T_30ActionPerformed
+
+    private void jButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton30ActionPerformed
+        StepIndex();
+    }//GEN-LAST:event_jButton30ActionPerformed
+
+    private void jButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton31ActionPerformed
+        StepIndex();
+    }//GEN-LAST:event_jButton31ActionPerformed
+
+    private void B_T_31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B_T_31ActionPerformed
+        if(RB_T31_5.isSelected() == true){
+            StepIndex();
+        }else{
+            StepError();
+        }
+    }//GEN-LAST:event_B_T_31ActionPerformed
+
+    private void RB_T31_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RB_T31_2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_RB_T31_2ActionPerformed
        
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup BG_T_1;
@@ -3055,6 +3248,8 @@ public class JApplet extends javax.swing.JApplet {
     private javax.swing.JButton B_T_28;
     private javax.swing.JButton B_T_29;
     private javax.swing.JButton B_T_3;
+    private javax.swing.JButton B_T_30;
+    private javax.swing.JButton B_T_31;
     private javax.swing.JButton B_T_4;
     private javax.swing.JButton B_T_5;
     private javax.swing.JButton B_T_6;
@@ -3084,6 +3279,8 @@ public class JApplet extends javax.swing.JApplet {
     private javax.swing.JPanel EPanel_28;
     private javax.swing.JPanel EPanel_29;
     private javax.swing.JPanel EPanel_3;
+    private javax.swing.JPanel EPanel_30;
+    private javax.swing.JPanel EPanel_31;
     private javax.swing.JPanel EPanel_4;
     private javax.swing.JPanel EPanel_5;
     private javax.swing.JPanel EPanel_6;
@@ -3117,6 +3314,8 @@ public class JApplet extends javax.swing.JApplet {
     private javax.swing.JPanel PTask_28;
     private javax.swing.JPanel PTask_29;
     private javax.swing.JPanel PTask_3;
+    private javax.swing.JPanel PTask_30;
+    private javax.swing.JPanel PTask_31;
     private javax.swing.JPanel PTask_4;
     private javax.swing.JPanel PTask_5;
     private javax.swing.JPanel PTask_6;
@@ -3166,6 +3365,20 @@ public class JApplet extends javax.swing.JApplet {
     private javax.swing.JRadioButton RB_T29_2;
     private javax.swing.JRadioButton RB_T29_3;
     private javax.swing.JRadioButton RB_T29_4;
+    private javax.swing.JRadioButton RB_T30_1;
+    private javax.swing.JRadioButton RB_T30_2;
+    private javax.swing.JRadioButton RB_T30_3;
+    private javax.swing.JRadioButton RB_T30_4;
+    private javax.swing.JRadioButton RB_T30_5;
+    private javax.swing.JRadioButton RB_T30_6;
+    private javax.swing.JRadioButton RB_T30_7;
+    private javax.swing.JRadioButton RB_T30_8;
+    private javax.swing.JRadioButton RB_T31_1;
+    private javax.swing.JRadioButton RB_T31_2;
+    private javax.swing.JRadioButton RB_T31_3;
+    private javax.swing.JRadioButton RB_T31_4;
+    private javax.swing.JRadioButton RB_T31_5;
+    private javax.swing.JRadioButton RB_T31_6;
     private javax.swing.JRadioButton RB_T3_1;
     private javax.swing.JRadioButton RB_T3_2;
     private javax.swing.JRadioButton RB_T4_1;
@@ -3267,6 +3480,8 @@ public class JApplet extends javax.swing.JApplet {
     private javax.swing.JButton jButton28;
     private javax.swing.JButton jButton29;
     private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton30;
+    private javax.swing.JButton jButton31;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
@@ -3280,7 +3495,13 @@ public class JApplet extends javax.swing.JApplet {
     private javax.swing.JLabel jLabel102;
     private javax.swing.JLabel jLabel103;
     private javax.swing.JLabel jLabel104;
+    private javax.swing.JLabel jLabel105;
+    private javax.swing.JLabel jLabel106;
+    private javax.swing.JLabel jLabel107;
+    private javax.swing.JLabel jLabel108;
+    private javax.swing.JLabel jLabel109;
     private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel110;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;

@@ -444,6 +444,21 @@ public class JApplet extends javax.swing.JApplet {
         RB_T40_1 = new javax.swing.JRadioButton();
         RB_T40_2 = new javax.swing.JRadioButton();
         RB_T40_3 = new javax.swing.JRadioButton();
+        PTask_41 = new javax.swing.JPanel();
+        jLabel145 = new javax.swing.JLabel();
+        B_T_41 = new javax.swing.JButton();
+        jLabel146 = new javax.swing.JLabel();
+        PTask_42 = new javax.swing.JPanel();
+        jLabel147 = new javax.swing.JLabel();
+        B_T_42 = new javax.swing.JButton();
+        jLabel148 = new javax.swing.JLabel();
+        T_T42_1 = new javax.swing.JTextField();
+        T_T42_2 = new javax.swing.JTextField();
+        T_T42_3 = new javax.swing.JTextField();
+        T_T42_4 = new javax.swing.JTextField();
+        T_T42_5 = new javax.swing.JTextField();
+        T_T42_6 = new javax.swing.JTextField();
+        T_T42_7 = new javax.swing.JTextField();
         EPanel_1 = new javax.swing.JPanel();
         jLabel14 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
@@ -563,6 +578,9 @@ public class JApplet extends javax.swing.JApplet {
         EPanel_40 = new javax.swing.JPanel();
         jLabel144 = new javax.swing.JLabel();
         jButton41 = new javax.swing.JButton();
+        EPanel_42 = new javax.swing.JPanel();
+        jLabel149 = new javax.swing.JLabel();
+        jButton42 = new javax.swing.JButton();
         PEnd = new javax.swing.JPanel();
         LEnd = new javax.swing.JLabel();
 
@@ -2638,7 +2656,6 @@ public class JApplet extends javax.swing.JApplet {
 
         B_T_39.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         B_T_39.setText("Наступне питання");
-        B_T_39.setEnabled(false);
         B_T_39.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 B_T_39ActionPerformed(evt);
@@ -2652,11 +2669,6 @@ public class JApplet extends javax.swing.JApplet {
         PTask_39.add(jLabel139, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, -1, -1));
 
         T_T39_1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        T_T39_1.addCaretListener(new javax.swing.event.CaretListener() {
-            public void caretUpdate(javax.swing.event.CaretEvent evt) {
-                T_T39_1CaretUpdate(evt);
-            }
-        });
         PTask_39.add(T_T39_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 160, 60, 30));
 
         T_T39_2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -2695,6 +2707,107 @@ public class JApplet extends javax.swing.JApplet {
         PTask_40.add(RB_T40_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 220, -1, -1));
 
         MainPanel.add(PTask_40, "CTask_40");
+
+        PTask_41.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel145.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel145.setText("Такий вигляд має друга симплекс-таблиця М-методу");
+        PTask_41.add(jLabel145, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 20, -1, -1));
+
+        B_T_41.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        B_T_41.setText("Наступне питання");
+        B_T_41.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                B_T_41ActionPerformed(evt);
+            }
+        });
+        PTask_41.add(B_T_41, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 310, -1, -1));
+
+        jLabel146.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel146.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel146.setText("<html> <head> \t<meta charset=\"UTF-8\"> </head> <body>  \t<table border=\"1\" cellpadding=\"3\" cellspacing=\"0\" style=\"text-align:center;\"> \t\t<tr> \t\t\t<td rowspan=\"2\"> i </td> \t\t\t<td rowspan=\"2\">Базис</td> \t\t\t<td rowspan=\"2\">С<sub>б</sub></td> \t\t\t<td rowspan=\"2\">      P<sub>0</sub>    </td> \t\t\t<td>      2    </td> \t\t\t<td>     -3    </td> \t\t\t<td>      6    </td> \t\t\t<td>      1    </td> \t\t\t<td>      0    </td> \t\t\t<td>      0    </td> \t\t\t<td rowspan=\"2\">   b<sub>i</sub>/a<sub>ik</sub>   </td> \t\t</tr> \t\t<tr> \t\t\t<td>P<sub>1</sub></td> \t\t\t<td>P<sub>2</sub></td> \t\t\t<td>P<sub>3</sub></td> \t\t\t<td>P<sub>4</sub></td> \t\t\t<td>P<sub>5</sub></td> \t\t\t<td>P<sub>6</sub></td> \t\t</tr> \t\t<tr> \t\t\t<td>1</td> \t\t\t<td>P<sub>4</sub></td> \t\t\t<td>1</td> \t\t\t<td>34</td> \t\t\t<td>3</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>1</td> \t\t\t<td>0</td> \t\t\t<td>-1</td> \t\t\t<td></td> \t\t</tr> \t\t<tr> \t\t\t<td>2</td> \t\t\t<td>P<sub>5</sub></td> \t\t\t<td>0</td> \t\t\t<td>2</td> \t\t\t<td>-1</td> \t\t\t<td>4</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>1</td> \t\t\t<td>2</td> \t\t\t<td>1</td> \t\t</tr> \t\t<tr> \t\t\t<td>3</td> \t\t\t<td>P<sub>3</sub></td> \t\t\t<td>6</td> \t\t\t<td>5</td> \t\t\t<td>1/2</td> \t\t\t<td>-1/2</td> \t\t\t<td>1</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>-1/2</td> \t\t\t<td></td> \t\t</tr> \t\t<tr> \t\t\t<td>4</td> \t\t\t<td></td> \t\t\t<td></td> \t\t\t<td>64</td> \t\t\t<td>4</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>-4</td> \t\t\t<td></td> \t\t</tr>\t \t</table> </body> </html>");
+        PTask_41.add(jLabel146, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 90, -1, -1));
+
+        MainPanel.add(PTask_41, "CTask_41");
+
+        PTask_42.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel147.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel147.setText("Перерахуйте напрямний рядок");
+        PTask_42.add(jLabel147, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 20, -1, -1));
+
+        B_T_42.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        B_T_42.setText("Наступне питання");
+        B_T_42.setEnabled(false);
+        B_T_42.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                B_T_42ActionPerformed(evt);
+            }
+        });
+        PTask_42.add(B_T_42, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 310, -1, -1));
+
+        jLabel148.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel148.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel148.setText("<html> <head> \t<meta charset=\"UTF-8\"> </head> <body>  \t<table border=\"1\" cellpadding=\"3\" cellspacing=\"0\" style=\"text-align:center;\"> \t\t<tr> \t\t\t<td rowspan=\"2\"> i </td> \t\t\t<td rowspan=\"2\">Базис</td> \t\t\t<td rowspan=\"2\">С<sub>б</sub></td> \t\t\t<td rowspan=\"2\">      P<sub>0</sub>    </td> \t\t\t<td>      2    </td> \t\t\t<td>     -3    </td> \t\t\t<td>      6    </td> \t\t\t<td>      1    </td> \t\t\t<td>      0    </td> \t\t\t<td>      0    </td> \t\t\t<td rowspan=\"2\">   b<sub>i</sub>/a<sub>ik</sub>   </td> \t\t</tr> \t\t<tr> \t\t\t<td>P<sub>1</sub></td> \t\t\t<td>P<sub>2</sub></td> \t\t\t<td>P<sub>3</sub></td> \t\t\t<td>P<sub>4</sub></td> \t\t\t<td>P<sub>5</sub></td> \t\t\t<td>P<sub>6</sub></td> \t\t</tr> \t\t<tr> \t\t\t<td>1</td> \t\t\t<td>P<sub>4</sub></td> \t\t\t<td>1</td> \t\t\t<td>34</td> \t\t\t<td>3</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>1</td> \t\t\t<td>0</td> \t\t\t<td>-1</td> \t\t\t<td></td> \t\t</tr> \t\t<tr> \t\t\t<td>2</td> \t\t\t<td>P<sub>5</sub></td> \t\t\t<td>0</td> \t\t\t<td>2</td> \t\t\t<td>-1</td> \t\t\t<td>4</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>1</td> \t\t\t<td>2</td> \t\t\t<td>1</td> \t\t</tr> \t\t<tr> \t\t\t<td>3</td> \t\t\t<td>P<sub>3</sub></td> \t\t\t<td>6</td> \t\t\t<td>5</td> \t\t\t<td>1/2</td> \t\t\t<td>-1/2</td> \t\t\t<td>1</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>-1/2</td> \t\t\t<td></td> \t\t</tr> \t\t<tr> \t\t\t<td>4</td> \t\t\t<td></td> \t\t\t<td></td> \t\t\t<td>64</td> \t\t\t<td>4</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>-4</td> \t\t\t<td></td> \t\t</tr>\t \t</table> </body> </html>");
+        PTask_42.add(jLabel148, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 90, -1, -1));
+
+        T_T42_1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        T_T42_1.addCaretListener(new javax.swing.event.CaretListener() {
+            public void caretUpdate(javax.swing.event.CaretEvent evt) {
+                T_T42_1CaretUpdate(evt);
+            }
+        });
+        PTask_42.add(T_T42_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(136, 180, 35, 30));
+
+        T_T42_2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        T_T42_2.addCaretListener(new javax.swing.event.CaretListener() {
+            public void caretUpdate(javax.swing.event.CaretEvent evt) {
+                T_T42_1CaretUpdate(evt);
+            }
+        });
+        PTask_42.add(T_T42_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(192, 180, 35, 30));
+
+        T_T42_3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        T_T42_3.addCaretListener(new javax.swing.event.CaretListener() {
+            public void caretUpdate(javax.swing.event.CaretEvent evt) {
+                T_T42_1CaretUpdate(evt);
+            }
+        });
+        PTask_42.add(T_T42_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 180, 35, 30));
+
+        T_T42_4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        T_T42_4.addCaretListener(new javax.swing.event.CaretListener() {
+            public void caretUpdate(javax.swing.event.CaretEvent evt) {
+                T_T42_1CaretUpdate(evt);
+            }
+        });
+        PTask_42.add(T_T42_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(305, 180, 35, 30));
+
+        T_T42_5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        T_T42_5.addCaretListener(new javax.swing.event.CaretListener() {
+            public void caretUpdate(javax.swing.event.CaretEvent evt) {
+                T_T42_1CaretUpdate(evt);
+            }
+        });
+        PTask_42.add(T_T42_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(361, 180, 35, 30));
+
+        T_T42_6.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        T_T42_6.addCaretListener(new javax.swing.event.CaretListener() {
+            public void caretUpdate(javax.swing.event.CaretEvent evt) {
+                T_T42_1CaretUpdate(evt);
+            }
+        });
+        PTask_42.add(T_T42_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(417, 180, 35, 30));
+
+        T_T42_7.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        T_T42_7.addCaretListener(new javax.swing.event.CaretListener() {
+            public void caretUpdate(javax.swing.event.CaretEvent evt) {
+                T_T42_1CaretUpdate(evt);
+            }
+        });
+        PTask_42.add(T_T42_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(473, 180, 35, 30));
+
+        MainPanel.add(PTask_42, "CTask_42");
 
         EPanel_1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -3365,6 +3478,23 @@ public class JApplet extends javax.swing.JApplet {
         EPanel_40.add(jButton41, new org.netbeans.lib.awtextra.AbsoluteConstraints(436, 286, -1, -1));
 
         MainPanel.add(EPanel_40, "ECTask_40");
+
+        EPanel_42.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel149.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel149.setText("<html><center>Для перерахунку напрямного рядка всі його значення діляться на розв’язувальний елемент</center></html>");
+        EPanel_42.add(jLabel149, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 100, 510, 90));
+
+        jButton42.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jButton42.setText("Наступний крок");
+        jButton42.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton42ActionPerformed(evt);
+            }
+        });
+        EPanel_42.add(jButton42, new org.netbeans.lib.awtextra.AbsoluteConstraints(436, 286, -1, -1));
+
+        MainPanel.add(EPanel_42, "ECTask_42");
 
         PEnd.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -4171,16 +4301,6 @@ public class JApplet extends javax.swing.JApplet {
         }
     }//GEN-LAST:event_B_T_39ActionPerformed
 
-    private void T_T39_1CaretUpdate(javax.swing.event.CaretEvent evt) {//GEN-FIRST:event_T_T39_1CaretUpdate
-        if(T_T39_1.getText().trim().length() ==  0 || 
-                T_T39_2.getText().trim().length() ==  0 ||
-                T_T39_3.getText().trim().length() ==  0){
-            B_T_39.setEnabled(false);
-        }else{
-            B_T_39.setEnabled(true);
-        }
-    }//GEN-LAST:event_T_T39_1CaretUpdate
-
     private void jButton40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton40ActionPerformed
         StepIndex();
     }//GEN-LAST:event_jButton40ActionPerformed
@@ -4196,6 +4316,42 @@ public class JApplet extends javax.swing.JApplet {
     private void jButton41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton41ActionPerformed
         StepIndex();
     }//GEN-LAST:event_jButton41ActionPerformed
+
+    private void B_T_41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B_T_41ActionPerformed
+        StepIndex();
+    }//GEN-LAST:event_B_T_41ActionPerformed
+
+    private void B_T_42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B_T_42ActionPerformed
+        if(T_T42_1.getText().equals("1") &&  
+                T_T42_2.getText().equals("-1/2") &&  
+                T_T42_3.getText().equals("2") &&  
+                T_T42_4.getText().equals("0") &&  
+                T_T42_5.getText().equals("0") &&  
+                T_T42_6.getText().equals("1/2") &&  
+                T_T42_7.getText().equals("1")){
+            StepIndex();
+        }else{
+            StepError();
+        }
+    }//GEN-LAST:event_B_T_42ActionPerformed
+
+    private void T_T42_1CaretUpdate(javax.swing.event.CaretEvent evt) {//GEN-FIRST:event_T_T42_1CaretUpdate
+        if(T_T42_1.getText().trim().length() ==  0 || 
+                T_T42_2.getText().trim().length() ==  0 ||
+                T_T42_3.getText().trim().length() ==  0 ||
+                T_T42_4.getText().trim().length() ==  0 ||
+                T_T42_5.getText().trim().length() ==  0 ||
+                T_T42_6.getText().trim().length() ==  0 ||
+                T_T42_7.getText().trim().length() ==  0){
+            B_T_42.setEnabled(false);
+        }else{
+            B_T_42.setEnabled(true);
+        }
+    }//GEN-LAST:event_T_T42_1CaretUpdate
+
+    private void jButton42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton42ActionPerformed
+        StepIndex();
+    }//GEN-LAST:event_jButton42ActionPerformed
        
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup BG_T_1;
@@ -4247,6 +4403,8 @@ public class JApplet extends javax.swing.JApplet {
     private javax.swing.JButton B_T_39;
     private javax.swing.JButton B_T_4;
     private javax.swing.JButton B_T_40;
+    private javax.swing.JButton B_T_41;
+    private javax.swing.JButton B_T_42;
     private javax.swing.JButton B_T_5;
     private javax.swing.JButton B_T_6;
     private javax.swing.JButton B_T_7;
@@ -4287,6 +4445,7 @@ public class JApplet extends javax.swing.JApplet {
     private javax.swing.JPanel EPanel_39;
     private javax.swing.JPanel EPanel_4;
     private javax.swing.JPanel EPanel_40;
+    private javax.swing.JPanel EPanel_42;
     private javax.swing.JPanel EPanel_5;
     private javax.swing.JPanel EPanel_6;
     private javax.swing.JPanel EPanel_7;
@@ -4331,6 +4490,8 @@ public class JApplet extends javax.swing.JApplet {
     private javax.swing.JPanel PTask_39;
     private javax.swing.JPanel PTask_4;
     private javax.swing.JPanel PTask_40;
+    private javax.swing.JPanel PTask_41;
+    private javax.swing.JPanel PTask_42;
     private javax.swing.JPanel PTask_5;
     private javax.swing.JPanel PTask_6;
     private javax.swing.JPanel PTask_7;
@@ -4514,6 +4675,13 @@ public class JApplet extends javax.swing.JApplet {
     private javax.swing.JTextField T_T39_1;
     private javax.swing.JTextField T_T39_2;
     private javax.swing.JTextField T_T39_3;
+    private javax.swing.JTextField T_T42_1;
+    private javax.swing.JTextField T_T42_2;
+    private javax.swing.JTextField T_T42_3;
+    private javax.swing.JTextField T_T42_4;
+    private javax.swing.JTextField T_T42_5;
+    private javax.swing.JTextField T_T42_6;
+    private javax.swing.JTextField T_T42_7;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
@@ -4549,6 +4717,7 @@ public class JApplet extends javax.swing.JApplet {
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton40;
     private javax.swing.JButton jButton41;
+    private javax.swing.JButton jButton42;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
@@ -4605,6 +4774,11 @@ public class JApplet extends javax.swing.JApplet {
     private javax.swing.JLabel jLabel142;
     private javax.swing.JLabel jLabel143;
     private javax.swing.JLabel jLabel144;
+    private javax.swing.JLabel jLabel145;
+    private javax.swing.JLabel jLabel146;
+    private javax.swing.JLabel jLabel147;
+    private javax.swing.JLabel jLabel148;
+    private javax.swing.JLabel jLabel149;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;

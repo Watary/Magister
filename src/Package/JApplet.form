@@ -5281,7 +5281,6 @@
                   <Font name="Tahoma" size="14" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="&#x41d;&#x430;&#x441;&#x442;&#x443;&#x43f;&#x43d;&#x435; &#x43f;&#x438;&#x442;&#x430;&#x43d;&#x43d;&#x44f;"/>
-                <Property name="enabled" type="boolean" value="false"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="B_T_39ActionPerformed"/>
@@ -5312,9 +5311,6 @@
                   <Font name="Tahoma" size="14" style="0"/>
                 </Property>
               </Properties>
-              <Events>
-                <EventHandler event="caretUpdate" listener="javax.swing.event.CaretListener" parameters="javax.swing.event.CaretEvent" handler="T_T39_1CaretUpdate"/>
-              </Events>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
                   <AbsoluteConstraints x="510" y="160" width="60" height="30"/>
@@ -5432,6 +5428,224 @@
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
                   <AbsoluteConstraints x="560" y="220" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="PTask_41">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="CTask_41"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="false"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel145">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x422;&#x430;&#x43a;&#x438;&#x439; &#x432;&#x438;&#x433;&#x43b;&#x44f;&#x434; &#x43c;&#x430;&#x454; &#x434;&#x440;&#x443;&#x433;&#x430; &#x441;&#x438;&#x43c;&#x43f;&#x43b;&#x435;&#x43a;&#x441;-&#x442;&#x430;&#x431;&#x43b;&#x438;&#x446;&#x44f; &#x41c;-&#x43c;&#x435;&#x442;&#x43e;&#x434;&#x443;"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="80" y="20" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="B_T_41">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x41d;&#x430;&#x441;&#x442;&#x443;&#x43f;&#x43d;&#x435; &#x43f;&#x438;&#x442;&#x430;&#x43d;&#x43d;&#x44f;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="B_T_41ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="430" y="310" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel146">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;head&gt; &#x9;&lt;meta charset=&quot;UTF-8&quot;&gt; &lt;/head&gt; &lt;body&gt;  &#x9;&lt;table border=&quot;1&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; style=&quot;text-align:center;&quot;&gt; &#x9;&#x9;&lt;tr&gt; &#x9;&#x9;&#x9;&lt;td rowspan=&quot;2&quot;&gt;&#xa0;i&#xa0;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td rowspan=&quot;2&quot;&gt;&#x411;&#x430;&#x437;&#x438;&#x441;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td rowspan=&quot;2&quot;&gt;&#x421;&lt;sub&gt;&#x431;&lt;/sub&gt;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td rowspan=&quot;2&quot;&gt;&#xa0;&#xa0;&#xa0; &#xa0;&#xa0;P&lt;sub&gt;0&lt;/sub&gt;&#xa0;&#xa0;&#xa0;&#xa0;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;&#xa0;&#xa0;&#xa0; &#xa0;&#xa0;2&#xa0;&#xa0;&#xa0;&#xa0;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;&#xa0;&#xa0;&#xa0; &#xa0;-3&#xa0;&#xa0;&#xa0;&#xa0;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;&#xa0;&#xa0;&#xa0; &#xa0;&#xa0;6&#xa0;&#xa0;&#xa0;&#xa0;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;&#xa0;&#xa0;&#xa0; &#xa0;&#xa0;1&#xa0;&#xa0;&#xa0;&#xa0;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;&#xa0;&#xa0;&#xa0; &#xa0;&#xa0;0&#xa0;&#xa0;&#xa0;&#xa0;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;&#xa0;&#xa0;&#xa0; &#xa0;&#xa0;0&#xa0;&#xa0;&#xa0;&#xa0;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td rowspan=&quot;2&quot;&gt;&#xa0;&#xa0;&#xa0;b&lt;sub&gt;i&lt;/sub&gt;/a&lt;sub&gt;ik&lt;/sub&gt;&#xa0;&#xa0;&#xa0;&lt;/td&gt; &#x9;&#x9;&lt;/tr&gt; &#x9;&#x9;&lt;tr&gt; &#x9;&#x9;&#x9;&lt;td&gt;P&lt;sub&gt;1&lt;/sub&gt;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;P&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;P&lt;sub&gt;3&lt;/sub&gt;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;P&lt;sub&gt;4&lt;/sub&gt;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;P&lt;sub&gt;5&lt;/sub&gt;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;P&lt;sub&gt;6&lt;/sub&gt;&lt;/td&gt; &#x9;&#x9;&lt;/tr&gt; &#x9;&#x9;&lt;tr&gt; &#x9;&#x9;&#x9;&lt;td&gt;1&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;P&lt;sub&gt;4&lt;/sub&gt;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;1&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;34&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;3&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;0&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;0&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;1&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;0&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;-1&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;&lt;/td&gt; &#x9;&#x9;&lt;/tr&gt; &#x9;&#x9;&lt;tr&gt; &#x9;&#x9;&#x9;&lt;td&gt;2&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;P&lt;sub&gt;5&lt;/sub&gt;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;0&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;2&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;-1&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;4&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;0&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;0&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;1&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;2&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;1&lt;/td&gt; &#x9;&#x9;&lt;/tr&gt; &#x9;&#x9;&lt;tr&gt; &#x9;&#x9;&#x9;&lt;td&gt;3&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;P&lt;sub&gt;3&lt;/sub&gt;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;6&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;5&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;1/2&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;-1/2&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;1&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;0&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;0&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;-1/2&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;&lt;/td&gt; &#x9;&#x9;&lt;/tr&gt; &#x9;&#x9;&lt;tr&gt; &#x9;&#x9;&#x9;&lt;td&gt;4&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;64&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;4&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;0&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;0&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;0&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;0&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;-4&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;&lt;/td&gt; &#x9;&#x9;&lt;/tr&gt;&#x9; &#x9;&lt;/table&gt; &lt;/body&gt; &lt;/html&gt;"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="20" y="90" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="PTask_42">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="CTask_42"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="false"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel147">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x41f;&#x435;&#x440;&#x435;&#x440;&#x430;&#x445;&#x443;&#x439;&#x442;&#x435; &#x43d;&#x430;&#x43f;&#x440;&#x44f;&#x43c;&#x43d;&#x438;&#x439; &#x440;&#x44f;&#x434;&#x43e;&#x43a;"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="160" y="20" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="B_T_42">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x41d;&#x430;&#x441;&#x442;&#x443;&#x43f;&#x43d;&#x435; &#x43f;&#x438;&#x442;&#x430;&#x43d;&#x43d;&#x44f;"/>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="B_T_42ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="430" y="310" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel148">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;head&gt; &#x9;&lt;meta charset=&quot;UTF-8&quot;&gt; &lt;/head&gt; &lt;body&gt;  &#x9;&lt;table border=&quot;1&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; style=&quot;text-align:center;&quot;&gt; &#x9;&#x9;&lt;tr&gt; &#x9;&#x9;&#x9;&lt;td rowspan=&quot;2&quot;&gt;&#xa0;i&#xa0;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td rowspan=&quot;2&quot;&gt;&#x411;&#x430;&#x437;&#x438;&#x441;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td rowspan=&quot;2&quot;&gt;&#x421;&lt;sub&gt;&#x431;&lt;/sub&gt;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td rowspan=&quot;2&quot;&gt;&#xa0;&#xa0;&#xa0; &#xa0;&#xa0;P&lt;sub&gt;0&lt;/sub&gt;&#xa0;&#xa0;&#xa0;&#xa0;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;&#xa0;&#xa0;&#xa0; &#xa0;&#xa0;2&#xa0;&#xa0;&#xa0;&#xa0;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;&#xa0;&#xa0;&#xa0; &#xa0;-3&#xa0;&#xa0;&#xa0;&#xa0;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;&#xa0;&#xa0;&#xa0; &#xa0;&#xa0;6&#xa0;&#xa0;&#xa0;&#xa0;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;&#xa0;&#xa0;&#xa0; &#xa0;&#xa0;1&#xa0;&#xa0;&#xa0;&#xa0;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;&#xa0;&#xa0;&#xa0; &#xa0;&#xa0;0&#xa0;&#xa0;&#xa0;&#xa0;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;&#xa0;&#xa0;&#xa0; &#xa0;&#xa0;0&#xa0;&#xa0;&#xa0;&#xa0;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td rowspan=&quot;2&quot;&gt;&#xa0;&#xa0;&#xa0;b&lt;sub&gt;i&lt;/sub&gt;/a&lt;sub&gt;ik&lt;/sub&gt;&#xa0;&#xa0;&#xa0;&lt;/td&gt; &#x9;&#x9;&lt;/tr&gt; &#x9;&#x9;&lt;tr&gt; &#x9;&#x9;&#x9;&lt;td&gt;P&lt;sub&gt;1&lt;/sub&gt;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;P&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;P&lt;sub&gt;3&lt;/sub&gt;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;P&lt;sub&gt;4&lt;/sub&gt;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;P&lt;sub&gt;5&lt;/sub&gt;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;P&lt;sub&gt;6&lt;/sub&gt;&lt;/td&gt; &#x9;&#x9;&lt;/tr&gt; &#x9;&#x9;&lt;tr&gt; &#x9;&#x9;&#x9;&lt;td&gt;1&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;P&lt;sub&gt;4&lt;/sub&gt;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;1&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;34&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;3&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;0&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;0&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;1&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;0&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;-1&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;&lt;/td&gt; &#x9;&#x9;&lt;/tr&gt; &#x9;&#x9;&lt;tr&gt; &#x9;&#x9;&#x9;&lt;td&gt;2&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;P&lt;sub&gt;5&lt;/sub&gt;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;0&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;2&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;-1&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;4&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;0&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;0&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;1&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;2&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;1&lt;/td&gt; &#x9;&#x9;&lt;/tr&gt; &#x9;&#x9;&lt;tr&gt; &#x9;&#x9;&#x9;&lt;td&gt;3&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;P&lt;sub&gt;3&lt;/sub&gt;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;6&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;5&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;1/2&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;-1/2&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;1&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;0&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;0&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;-1/2&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;&lt;/td&gt; &#x9;&#x9;&lt;/tr&gt; &#x9;&#x9;&lt;tr&gt; &#x9;&#x9;&#x9;&lt;td&gt;4&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;64&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;4&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;0&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;0&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;0&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;0&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;-4&lt;/td&gt; &#x9;&#x9;&#x9;&lt;td&gt;&lt;/td&gt; &#x9;&#x9;&lt;/tr&gt;&#x9; &#x9;&lt;/table&gt; &lt;/body&gt; &lt;/html&gt;"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="20" y="90" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JTextField" name="T_T42_1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="caretUpdate" listener="javax.swing.event.CaretListener" parameters="javax.swing.event.CaretEvent" handler="T_T42_1CaretUpdate"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="136" y="180" width="35" height="30"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JTextField" name="T_T42_2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="caretUpdate" listener="javax.swing.event.CaretListener" parameters="javax.swing.event.CaretEvent" handler="T_T42_1CaretUpdate"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="192" y="180" width="35" height="30"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JTextField" name="T_T42_3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="caretUpdate" listener="javax.swing.event.CaretListener" parameters="javax.swing.event.CaretEvent" handler="T_T42_1CaretUpdate"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="250" y="180" width="35" height="30"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JTextField" name="T_T42_4">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="caretUpdate" listener="javax.swing.event.CaretListener" parameters="javax.swing.event.CaretEvent" handler="T_T42_1CaretUpdate"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="305" y="180" width="35" height="30"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JTextField" name="T_T42_5">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="caretUpdate" listener="javax.swing.event.CaretListener" parameters="javax.swing.event.CaretEvent" handler="T_T42_1CaretUpdate"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="361" y="180" width="35" height="30"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JTextField" name="T_T42_6">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="caretUpdate" listener="javax.swing.event.CaretListener" parameters="javax.swing.event.CaretEvent" handler="T_T42_1CaretUpdate"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="417" y="180" width="35" height="30"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JTextField" name="T_T42_7">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="caretUpdate" listener="javax.swing.event.CaretListener" parameters="javax.swing.event.CaretEvent" handler="T_T42_1CaretUpdate"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="473" y="180" width="35" height="30"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -7091,6 +7305,48 @@
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton41ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="436" y="286" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="EPanel_42">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="ECTask_42"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="false"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel149">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;center&gt;&#x414;&#x43b;&#x44f; &#x43f;&#x435;&#x440;&#x435;&#x440;&#x430;&#x445;&#x443;&#x43d;&#x43a;&#x443; &#x43d;&#x430;&#x43f;&#x440;&#x44f;&#x43c;&#x43d;&#x43e;&#x433;&#x43e; &#x440;&#x44f;&#x434;&#x43a;&#x430; &#x432;&#x441;&#x456; &#x439;&#x43e;&#x433;&#x43e; &#x437;&#x43d;&#x430;&#x447;&#x435;&#x43d;&#x43d;&#x44f; &#x434;&#x456;&#x43b;&#x44f;&#x442;&#x44c;&#x441;&#x44f; &#x43d;&#x430; &#x440;&#x43e;&#x437;&#x432;&#x2019;&#x44f;&#x437;&#x443;&#x432;&#x430;&#x43b;&#x44c;&#x43d;&#x438;&#x439; &#x435;&#x43b;&#x435;&#x43c;&#x435;&#x43d;&#x442;&lt;/center&gt;&lt;/html&gt;"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="40" y="100" width="510" height="90"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton42">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x41d;&#x430;&#x441;&#x442;&#x443;&#x43f;&#x43d;&#x438;&#x439; &#x43a;&#x440;&#x43e;&#x43a;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton42ActionPerformed"/>
               </Events>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">

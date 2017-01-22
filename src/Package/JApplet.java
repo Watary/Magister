@@ -429,6 +429,14 @@ public class JApplet extends javax.swing.JApplet {
         RB_T38_4 = new javax.swing.JRadioButton();
         RB_T38_5 = new javax.swing.JRadioButton();
         RB_T38_6 = new javax.swing.JRadioButton();
+        PTask_39 = new javax.swing.JPanel();
+        jLabel138 = new javax.swing.JLabel();
+        B_T_39 = new javax.swing.JButton();
+        jLabel139 = new javax.swing.JLabel();
+        T_T39_1 = new javax.swing.JTextField();
+        T_T39_2 = new javax.swing.JTextField();
+        T_T39_3 = new javax.swing.JTextField();
+        jLabel140 = new javax.swing.JLabel();
         EPanel_1 = new javax.swing.JPanel();
         jLabel14 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
@@ -542,6 +550,9 @@ public class JApplet extends javax.swing.JApplet {
         EPanel_38 = new javax.swing.JPanel();
         jLabel137 = new javax.swing.JLabel();
         jButton39 = new javax.swing.JButton();
+        EPanel_39 = new javax.swing.JPanel();
+        jLabel141 = new javax.swing.JLabel();
+        jButton40 = new javax.swing.JButton();
         PEnd = new javax.swing.JPanel();
         LEnd = new javax.swing.JLabel();
 
@@ -2607,7 +2618,48 @@ public class JApplet extends javax.swing.JApplet {
         PTask_38.add(RB_T38_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(415, 75, -1, -1));
         PTask_38.add(RB_T38_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 75, -1, -1));
 
-        MainPanel.add(PTask_38, "CTask_28");
+        MainPanel.add(PTask_38, "CTask_38");
+
+        PTask_39.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel138.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel138.setText("<html>Заповніть стовбець b<sub>i</sub>/a<sub>ik</sub></html>");
+        PTask_39.add(jLabel138, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 20, -1, -1));
+
+        B_T_39.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        B_T_39.setText("Наступне питання");
+        B_T_39.setEnabled(false);
+        B_T_39.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                B_T_39ActionPerformed(evt);
+            }
+        });
+        PTask_39.add(B_T_39, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 310, -1, -1));
+
+        jLabel139.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel139.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel139.setText("<html> <head> \t<meta charset=\"UTF-8\"> </head> <body>  \t<table border=\"1\" cellpadding=\"3\" cellspacing=\"0\" style=\"text-align:center;\"> \t\t<tr> \t\t\t<td rowspan=\"2\"> i </td> \t\t\t<td rowspan=\"2\">Базис</td> \t\t\t<td rowspan=\"2\">С<sub>б</sub></td> \t\t\t<td rowspan=\"2\">      P<sub>0</sub>    </td> \t\t\t<td>      2    </td> \t\t\t<td>     -3    </td> \t\t\t<td>      6    </td> \t\t\t<td>      1    </td> \t\t\t<td>      0    </td> \t\t\t<td>      0    </td> \t\t\t<td rowspan=\"2\">   b<sub>i</sub>/a<sub>ik</sub>   </td> \t\t</tr> \t\t<tr> \t\t\t<td>P<sub>1</sub></td> \t\t\t<td>P<sub>2</sub></td> \t\t\t<td>P<sub>3</sub></td> \t\t\t<td>P<sub>4</sub></td> \t\t\t<td>P<sub>5</sub></td> \t\t\t<td>P<sub>6</sub></td> \t\t</tr> \t\t<tr> \t\t\t<td>1</td> \t\t\t<td>P<sub>4</sub></td> \t\t\t<td>1</td> \t\t\t<td>34</td> \t\t\t<td>3</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>1</td> \t\t\t<td>0</td> \t\t\t<td>-1</td> \t\t\t<td></td> \t\t</tr> \t\t<tr> \t\t\t<td>2</td> \t\t\t<td>P<sub>5</sub></td> \t\t\t<td>0</td> \t\t\t<td>2</td> \t\t\t<td>-1</td> \t\t\t<td>4</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>1</td> \t\t\t<td>2</td> \t\t\t<td></td> \t\t</tr> \t\t<tr> \t\t\t<td>3</td> \t\t\t<td>P<sub>3</sub></td> \t\t\t<td>6</td> \t\t\t<td>5</td> \t\t\t<td>1/2</td> \t\t\t<td>-1/2</td> \t\t\t<td>1</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>-1/2</td> \t\t\t<td></td> \t\t</tr> \t\t<tr> \t\t\t<td>4</td> \t\t\t<td></td> \t\t\t<td></td> \t\t\t<td>64</td> \t\t\t<td>4</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>-4</td> \t\t\t<td></td> \t\t</tr>\t \t</table> </body> </html>");
+        PTask_39.add(jLabel139, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, -1, -1));
+
+        T_T39_1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        T_T39_1.addCaretListener(new javax.swing.event.CaretListener() {
+            public void caretUpdate(javax.swing.event.CaretEvent evt) {
+                T_T39_1CaretUpdate(evt);
+            }
+        });
+        PTask_39.add(T_T39_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 160, 60, 30));
+
+        T_T39_2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        PTask_39.add(T_T39_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 190, 60, 30));
+
+        T_T39_3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        PTask_39.add(T_T39_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 220, 60, 30));
+
+        jLabel140.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel140.setText("Якщо значення від'ємне, то залиште комірку порожньою");
+        PTask_39.add(jLabel140, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, -1, -1));
+
+        MainPanel.add(PTask_39, "CTask_39");
 
         EPanel_1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -3243,7 +3295,24 @@ public class JApplet extends javax.swing.JApplet {
         });
         EPanel_38.add(jButton39, new org.netbeans.lib.awtextra.AbsoluteConstraints(436, 286, -1, -1));
 
-        MainPanel.add(EPanel_38, "ECTask_33");
+        MainPanel.add(EPanel_38, "ECTask_38");
+
+        EPanel_39.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel141.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel141.setText("<html>Значення в останньому стовбці розраховується за формулою b<sub>i</sub>/a<sub>ik</sub>, де a<sub>ik</sub>>0. Тому для цього прикладу потрібно ділити значення зі стовпця P<sub>0</sub> на відповідне значення зі стовпця P<sub>3</sub>. Для заданого прикладу правильна відповідь буде такою: <br><br> Для P<sub>4</sub>: 34/(-1) – значення є від’ємним, тому комірку залишаємо порожньою.<br> Для P<sub>5</sub>: 2/2=1.<br> Для P<sub>7</sub>: 5/(-1/2) – значення є від’ємним, тому комірку залишаємо порожньою.</html>");
+        EPanel_39.add(jLabel141, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 540, 260));
+
+        jButton40.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jButton40.setText("Наступний крок");
+        jButton40.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton40ActionPerformed(evt);
+            }
+        });
+        EPanel_39.add(jButton40, new org.netbeans.lib.awtextra.AbsoluteConstraints(436, 286, -1, -1));
+
+        MainPanel.add(EPanel_39, "ECTask_39");
 
         PEnd.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -4039,6 +4108,30 @@ public class JApplet extends javax.swing.JApplet {
     private void jButton39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton39ActionPerformed
         StepIndex();
     }//GEN-LAST:event_jButton39ActionPerformed
+
+    private void B_T_39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B_T_39ActionPerformed
+        if(T_T39_1.getText().equals("") &&  
+                T_T39_2.getText().equals("1") &&  
+                T_T39_3.getText().equals("")){
+            StepIndex();
+        }else{
+            StepError();
+        }
+    }//GEN-LAST:event_B_T_39ActionPerformed
+
+    private void T_T39_1CaretUpdate(javax.swing.event.CaretEvent evt) {//GEN-FIRST:event_T_T39_1CaretUpdate
+        if(T_T39_1.getText().trim().length() ==  0 || 
+                T_T39_2.getText().trim().length() ==  0 ||
+                T_T39_3.getText().trim().length() ==  0){
+            B_T_39.setEnabled(false);
+        }else{
+            B_T_39.setEnabled(true);
+        }
+    }//GEN-LAST:event_T_T39_1CaretUpdate
+
+    private void jButton40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton40ActionPerformed
+        StepIndex();
+    }//GEN-LAST:event_jButton40ActionPerformed
        
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup BG_T_1;
@@ -4087,6 +4180,7 @@ public class JApplet extends javax.swing.JApplet {
     private javax.swing.JButton B_T_36;
     private javax.swing.JButton B_T_37;
     private javax.swing.JButton B_T_38;
+    private javax.swing.JButton B_T_39;
     private javax.swing.JButton B_T_4;
     private javax.swing.JButton B_T_5;
     private javax.swing.JButton B_T_6;
@@ -4125,6 +4219,7 @@ public class JApplet extends javax.swing.JApplet {
     private javax.swing.JPanel EPanel_36;
     private javax.swing.JPanel EPanel_37;
     private javax.swing.JPanel EPanel_38;
+    private javax.swing.JPanel EPanel_39;
     private javax.swing.JPanel EPanel_4;
     private javax.swing.JPanel EPanel_5;
     private javax.swing.JPanel EPanel_6;
@@ -4167,6 +4262,7 @@ public class JApplet extends javax.swing.JApplet {
     private javax.swing.JPanel PTask_36;
     private javax.swing.JPanel PTask_37;
     private javax.swing.JPanel PTask_38;
+    private javax.swing.JPanel PTask_39;
     private javax.swing.JPanel PTask_4;
     private javax.swing.JPanel PTask_5;
     private javax.swing.JPanel PTask_6;
@@ -4345,6 +4441,9 @@ public class JApplet extends javax.swing.JApplet {
     private javax.swing.JTextField T_T37_3;
     private javax.swing.JTextField T_T37_4;
     private javax.swing.JTextField T_T37_5;
+    private javax.swing.JTextField T_T39_1;
+    private javax.swing.JTextField T_T39_2;
+    private javax.swing.JTextField T_T39_3;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
@@ -4378,6 +4477,7 @@ public class JApplet extends javax.swing.JApplet {
     private javax.swing.JButton jButton38;
     private javax.swing.JButton jButton39;
     private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton40;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
@@ -4426,7 +4526,11 @@ public class JApplet extends javax.swing.JApplet {
     private javax.swing.JLabel jLabel135;
     private javax.swing.JLabel jLabel136;
     private javax.swing.JLabel jLabel137;
+    private javax.swing.JLabel jLabel138;
+    private javax.swing.JLabel jLabel139;
     private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel140;
+    private javax.swing.JLabel jLabel141;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;

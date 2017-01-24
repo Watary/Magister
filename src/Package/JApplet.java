@@ -1287,17 +1287,17 @@ public class JApplet extends javax.swing.JApplet {
 
         BG_T_15.add(RB_T15_1);
         RB_T15_1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        RB_T15_1.setText("P0");
+        RB_T15_1.setText("<html>P<sub>0</sub></html>");
         PTask_15.add(RB_T15_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 150, -1, -1));
 
         BG_T_15.add(RB_T15_2);
         RB_T15_2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        RB_T15_2.setText("P1");
+        RB_T15_2.setText("<html>P<sub>1</sub></html>");
         PTask_15.add(RB_T15_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 180, -1, -1));
 
         BG_T_15.add(RB_T15_3);
         RB_T15_3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        RB_T15_3.setText("P2");
+        RB_T15_3.setText("<html>P<sub>2</sub></html>");
         RB_T15_3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 RB_T15_3ActionPerformed(evt);
@@ -1328,12 +1328,12 @@ public class JApplet extends javax.swing.JApplet {
 
         BG_T_16.add(RB_T16_1);
         RB_T16_1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        RB_T16_1.setText("P0");
+        RB_T16_1.setText("<html>P<sub>0</sub></html>");
         PTask_16.add(RB_T16_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 170, -1, -1));
 
         BG_T_16.add(RB_T16_2);
         RB_T16_2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        RB_T16_2.setText("Pj, j>0");
+        RB_T16_2.setText("<html>P<sub>j</sub>, j>0</html>");
         PTask_16.add(RB_T16_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 200, -1, -1));
 
         B_T_16.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -2492,7 +2492,7 @@ public class JApplet extends javax.swing.JApplet {
         T_T33_6.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         T_T33_6.addCaretListener(new javax.swing.event.CaretListener() {
             public void caretUpdate(javax.swing.event.CaretEvent evt) {
-                T_T33_6T_T33_1CaretUpdate(evt);
+                T_T33_1CaretUpdate(evt);
             }
         });
         PTask_33.add(T_T33_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 159, 40, 30));
@@ -3180,7 +3180,7 @@ public class JApplet extends javax.swing.JApplet {
                 T_T47_1CaretUpdate(evt);
             }
         });
-        PTask_47.add(T_T47_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(136, 211, 35, 30));
+        PTask_47.add(T_T47_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(131, 211, 40, 30));
 
         T_T47_2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         T_T47_2.addCaretListener(new javax.swing.event.CaretListener() {
@@ -3411,7 +3411,7 @@ public class JApplet extends javax.swing.JApplet {
                 T_T51_1CaretUpdate(evt);
             }
         });
-        PTask_51.add(T_T51_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 60, 30, -1));
+        PTask_51.add(T_T51_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(127, 60, 35, -1));
 
         T_T51_4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         T_T51_4.addCaretListener(new javax.swing.event.CaretListener() {
@@ -3486,7 +3486,7 @@ public class JApplet extends javax.swing.JApplet {
                 T_T52_1CaretUpdate(evt);
             }
         });
-        PTask_52.add(T_T52_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 60, 30, -1));
+        PTask_52.add(T_T52_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(127, 60, 35, -1));
 
         T_T52_4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         T_T52_4.addCaretListener(new javax.swing.event.CaretListener() {
@@ -4411,7 +4411,7 @@ public class JApplet extends javax.swing.JApplet {
         "CTask_30", "CTask_31", "CTask_32", "CTask_33", "CTask_34", "CTask_35", 
         "CTask_36", "CTask_37", "CTask_38", "CTask_39", "CTask_40", "CTask_41", 
         "CTask_42", "CTask_43", "CTask_44", "CTask_45", "CTask_46", "CTask_47",
-        "CTask_48", "CTask_49"};
+        "CTask_48", "CTask_49", "CTask_50", "CTask_51", "CTask_52"};
     int Index = 0, IndexMax = Panels.length;
     int CountError = 0;
     
@@ -4510,7 +4510,8 @@ public class JApplet extends javax.swing.JApplet {
     }//GEN-LAST:event_B_T_6ActionPerformed
 
     private void B_T_7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B_T_7ActionPerformed
-        if("+".equals(TF_T7_1.getText()) &
+        if(("+".equals(TF_T7_1.getText()) ||
+                "".equals(TF_T7_1.getText())) &
                 "-".equals(TF_T7_2.getText()) &
                 "+".equals(TF_T7_3.getText()) &
                 "+".equals(TF_T7_4.getText()) &
@@ -4554,7 +4555,7 @@ public class JApplet extends javax.swing.JApplet {
     }//GEN-LAST:event_B_T_11ActionPerformed
 
     private void B_T_12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B_T_12ActionPerformed
-        if(RB_T12_3.isSelected() == true){
+        if(RB_T12_2.isSelected() == true){
             StepIndex();
         }else{
             StepError();
@@ -4758,7 +4759,7 @@ public class JApplet extends javax.swing.JApplet {
                 T_T20_12.getText().equals("1") &&  
                 T_T20_13.getText().equals("0") &&  
                 T_T20_14.getText().equals("0") &&  
-                T_T20_15.getText().equals("-") &&  
+                T_T20_15.getText().equals("1") &&  
                 T_T20_16.getText().equals("-1") &&  
                 T_T20_17.getText().equals("2") &&  
                 T_T20_18.getText().equals("0") &&  
@@ -4884,10 +4885,10 @@ public class JApplet extends javax.swing.JApplet {
     }//GEN-LAST:event_jButton24ActionPerformed
 
     private void B_T_24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B_T_24ActionPerformed
-        if(T_T22_1.getText().equals("") &&  
-                T_T22_2.getText().equals("5.5") &&  
-                T_T22_2.getText().equals("5,5") &&  
-                T_T22_3.getText().equals("5")){
+        if(T_T24_1.getText().equals("") &&  
+                (T_T24_2.getText().equals("5.5") ||  
+                T_T24_2.getText().equals("5,5")) &&  
+                T_T24_3.getText().equals("5")){
             StepIndex();
         }else{
             StepError();
@@ -5057,10 +5058,6 @@ public class JApplet extends javax.swing.JApplet {
             B_T_33.setEnabled(true);
         }
     }//GEN-LAST:event_T_T33_1CaretUpdate
-
-    private void T_T33_6T_T33_1CaretUpdate(javax.swing.event.CaretEvent evt) {//GEN-FIRST:event_T_T33_6T_T33_1CaretUpdate
-        // TODO add your handling code here:
-    }//GEN-LAST:event_T_T33_6T_T33_1CaretUpdate
 
     private void jButton33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton33ActionPerformed
         StepIndex();

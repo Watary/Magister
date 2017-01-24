@@ -709,6 +709,9 @@ public class JApplet extends javax.swing.JApplet {
         EPanel_52 = new javax.swing.JPanel();
         jLabel174 = new javax.swing.JLabel();
         jButton51 = new javax.swing.JButton();
+        Condition = new javax.swing.JPanel();
+        jLabel185 = new javax.swing.JLabel();
+        jButton52 = new javax.swing.JButton();
         PEnd = new javax.swing.JPanel();
         LEnd = new javax.swing.JLabel();
 
@@ -4383,11 +4386,28 @@ public class JApplet extends javax.swing.JApplet {
 
         MainPanel.add(EPanel_52, "ECTask_52");
 
+        Condition.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel185.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel185.setText("<html><center>X = (0, 0, 11/2, 35, 0, 1), а F<sub>min</sub> = -68</center></html>");
+        Condition.add(jLabel185, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 140, 350, 60));
+
+        jButton52.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jButton52.setText("Наступний крок");
+        jButton52.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton52ActionPerformed(evt);
+            }
+        });
+        Condition.add(jButton52, new org.netbeans.lib.awtextra.AbsoluteConstraints(436, 286, -1, -1));
+
+        MainPanel.add(Condition, "Condition");
+
         PEnd.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         LEnd.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        LEnd.setText("LEnd");
-        PEnd.add(LEnd, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 100, -1, -1));
+        LEnd.setText("PEnd");
+        PEnd.add(LEnd, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 130, -1, -1));
 
         MainPanel.add(PEnd, "CEnd");
 
@@ -4433,7 +4453,7 @@ public class JApplet extends javax.swing.JApplet {
     }
     
     private void StepEnd(){
-        LEnd.setText("<html><center>РџСЂРѕС…РѕРґР¶РµРЅРЅСЏ С‚СЂРµРЅР°Р¶РµСЂР° Р·Р°РІРµСЂС€РµРЅРѕ,<br> РєС–Р»СЊРєС–СЃС‚СЊ Р·СЂРѕР±Р»РµРЅРёС… РїРѕРјРёР»РѕРє:  " + CountError + "</center></html>");
+        LEnd.setText("<html><center>Проходження тренажера завершено,<br> За час проходження тренажера було допущено помилок: " + CountError + "</center></html>");
         
         CardLayout cl = (CardLayout) MainPanel.getLayout();
         cl.show(MainPanel, "CEnd");
@@ -5460,6 +5480,10 @@ public class JApplet extends javax.swing.JApplet {
             B_T_52.setEnabled(true);
         }
     }//GEN-LAST:event_T_T52_1CaretUpdate
+
+    private void jButton52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton52ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton52ActionPerformed
        
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup BG_T_1;
@@ -5529,6 +5553,7 @@ public class JApplet extends javax.swing.JApplet {
     private javax.swing.JButton B_T_8;
     private javax.swing.JButton B_T_9;
     private javax.swing.JComboBox<String> CB_T7_1;
+    private javax.swing.JPanel Condition;
     private javax.swing.JPanel EPanel_1;
     private javax.swing.JPanel EPanel_10;
     private javax.swing.JPanel EPanel_11;
@@ -5920,6 +5945,7 @@ public class JApplet extends javax.swing.JApplet {
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton50;
     private javax.swing.JButton jButton51;
+    private javax.swing.JButton jButton52;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
@@ -6019,6 +6045,7 @@ public class JApplet extends javax.swing.JApplet {
     private javax.swing.JLabel jLabel182;
     private javax.swing.JLabel jLabel183;
     private javax.swing.JLabel jLabel184;
+    private javax.swing.JLabel jLabel185;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;

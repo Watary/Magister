@@ -2059,6 +2059,22 @@
                 </Constraint>
               </Constraints>
             </Component>
+            <Component class="javax.swing.JButton" name="jButton55">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x423;&#x43c;&#x43e;&#x432;&#x430;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton55ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="310" y="310" width="100" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="PTask_18">
@@ -2280,6 +2296,22 @@
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
                   <AbsoluteConstraints x="100" y="221" width="70" height="30"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton54">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x423;&#x43c;&#x43e;&#x432;&#x430;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton54ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="310" y="310" width="100" height="-1"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -2791,6 +2823,22 @@
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
                   <AbsoluteConstraints x="484" y="221" width="62" height="30"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton53">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x423;&#x43c;&#x43e;&#x432;&#x430;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton53ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="310" y="310" width="100" height="-1"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -7044,13 +7092,13 @@
             <Component class="javax.swing.JLabel" name="jLabel14">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Tahoma" size="18" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="&#x412;&#x456;&#x434;&#x43f;&#x440;&#x432;&#x456;&#x442;&#x44c; &#x43d;&#x435; &#x432;&#x456;&#x440;&#x43d;&#x430;, &#x434;&#x430;&#x43d;&#x443; &#x437;&#x430;&#x434;&#x430;&#x447;&#x443; &#x43d;&#x435;&#x43c;&#x43e;&#x436;&#x43d;&#x430; &#x440;&#x43e;&#x437;&#x432;&apos;&#x44f;&#x437;&#x430;&#x442;&#x438; &#x41c;-&#x43c;&#x435;&#x442;&#x43e;&#x434;&#x43e;&#x43c;"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="90" y="150" width="-1" height="-1"/>
+                  <AbsoluteConstraints x="40" y="160" width="-1" height="-1"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -7086,13 +7134,13 @@
             <Component class="javax.swing.JLabel" name="jLabel16">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Tahoma" size="18" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&#x429;&#x43e;&#x431; &#x437;&#x430;&#x434;&#x430;&#x447;&#x430; &#x440;&#x43e;&#x437;&#x432;&apos;&#x44f;&#x437;&#x443;&#x432;&#x430;&#x43b;&#x430;&#x441;&#x44f; &#x41c;-&#x43c;&#x435;&#x442;&#x43e;&#x434;&#x43e;&#x43c; &#x43f;&#x43e;&#x432;&#x438;&#x43d;&#x43d;&#x43e; &#x432;&#x438;&#x43a;&#x43e;&#x43d;&#x443;&#x432;&#x430;&#x442;&#x438;&#x441;&#x44f; 3 &#x443;&#x43c;&#x43e;&#x432;&#x438;"/>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;center&gt;&#x429;&#x43e;&#x431; &#x437;&#x430;&#x434;&#x430;&#x447;&#x430; &#x440;&#x43e;&#x437;&#x432;&apos;&#x44f;&#x437;&#x443;&#x432;&#x430;&#x43b;&#x430;&#x441;&#x44f; &#x41c;-&#x43c;&#x435;&#x442;&#x43e;&#x434;&#x43e;&#x43c; &#x43f;&#x43e;&#x432;&#x438;&#x43d;&#x43d;&#x43e; &#x432;&#x438;&#x43a;&#x43e;&#x43d;&#x443;&#x432;&#x430;&#x442;&#x438;&#x441;&#x44f; 3 &#x443;&#x43c;&#x43e;&#x432;&#x438;&lt;/center&gt;&lt;/html&gt;"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="90" y="150" width="-1" height="-1"/>
+                  <AbsoluteConstraints x="110" y="140" width="370" height="-1"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -7128,13 +7176,13 @@
             <Component class="javax.swing.JLabel" name="jLabel38">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Tahoma" size="18" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="&#x417;&#x41b;&#x41f; &#x43f;&#x43e;&#x432;&#x438;&#x43d;&#x43d;&#x430; &#x431;&#x443;&#x442;&#x438; &#x432; &#x43a;&#x430;&#x43d;&#x43e;&#x43d;&#x456;&#x447;&#x43d;&#x456;&#x439; &#x444;&#x43e;&#x440;&#x43c;&#x456;"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="180" y="150" width="-1" height="-1"/>
+                  <AbsoluteConstraints x="150" y="160" width="-1" height="-1"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -7170,13 +7218,13 @@
             <Component class="javax.swing.JLabel" name="jLabel47">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Tahoma" size="18" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="&#x41f;&#x440;&#x430;&#x432;&#x456; &#x447;&#x430;&#x441;&#x442;&#x438;&#x43d;&#x438; &#x440;&#x456;&#x432;&#x43d;&#x44f;&#x43d;&#x44c; &#x43f;&#x43e;&#x432;&#x438;&#x43d;&#x43d;&#x456; &#x431;&#x443;&#x442;&#x438; &#x434;&#x43e;&#x434;&#x430;&#x442;&#x43d;&#x438;&#x43c;&#x438;"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="140" y="150" width="-1" height="-1"/>
+                  <AbsoluteConstraints x="110" y="160" width="-1" height="-1"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -7212,13 +7260,13 @@
             <Component class="javax.swing.JLabel" name="jLabel48">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Tahoma" size="18" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="&#x425;&#x43e;&#x447;&#x430; &#x431; &#x432; &#x43e;&#x434;&#x43d;&#x43e;&#x43c;&#x443; &#x440;&#x456;&#x432;&#x43d;&#x44f;&#x43d;&#x43d;&#x456; &#x43d;&#x435; &#x43c;&#x430;&#x454; &#x431;&#x443;&#x442;&#x438; &#x431;&#x430;&#x437;&#x438;&#x441;&#x43d;&#x43e;&#x457; &#x437;&#x43c;&#x456;&#x43d;&#x43d;&#x43e;&#x457;"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="120" y="150" width="-1" height="-1"/>
+                  <AbsoluteConstraints x="80" y="160" width="-1" height="-1"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -7254,13 +7302,13 @@
             <Component class="javax.swing.JLabel" name="jLabel49">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Tahoma" size="18" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="&#x412; &#x443;&#x43c;&#x43e;&#x432;&#x430;&#x445; &#x454; &#x43d;&#x435;&#x440;&#x456;&#x432;&#x43d;&#x43e;&#x441;&#x442;&#x456;, &#x437;&#x430;&#x434;&#x430;&#x447;&#x430; &#x43d;&#x430; &#x43c;&#x456;&#x43d;&#x456;&#x43c;&#x443;&#x43c;"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="170" y="150" width="-1" height="-1"/>
+                  <AbsoluteConstraints x="120" y="160" width="-1" height="-1"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -7296,13 +7344,13 @@
             <Component class="javax.swing.JLabel" name="jLabel50">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Tahoma" size="18" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;center&gt;&#x426;&#x456;&#x43b;&#x44c;&#x43e;&#x432;&#x430; &#x444;&#x443;&#x43d;&#x43a;&#x446;&#x456;&#x44f; &#x443; &#x43a;&#x430;&#x43d;&#x43e;&#x43d;&#x456;&#x447;&#x43d;&#x456;&#x439; &#x444;&#x43e;&#x440;&#x43c;&#x456; &#x43c;&#x430;&#x454; &#x442;&#x430;&#x43a;&#x438;&#x439; &#x432;&#x438;&#x433;&#x43b;&#x44f;&#x434;: &lt;br&gt;F=2x&lt;sub&gt;1&lt;/sub&gt;-3x&lt;sub&gt;2&lt;/sub&gt;+x&lt;sub&gt;3&lt;/sub&gt;+x&lt;sub&gt;4&lt;/sub&gt;&#x2192;max&lt;/html&gt;"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="120" y="140" width="-1" height="-1"/>
+                  <AbsoluteConstraints x="80" y="150" width="-1" height="-1"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -7338,13 +7386,13 @@
             <Component class="javax.swing.JLabel" name="jLabel51">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Tahoma" size="18" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&#x414;&#x43e;&#x434;&#x430;&#x432;&#x430;&#x442;&#x438; &#x43d;&#x435;&#x432;&#x456;&#x434;&#x2019;&#x454;&#x43c;&#x43d;&#x456; &#x437;&#x43c;&#x456;&#x43d;&#x43d;&#x456; &#x43f;&#x43e;&#x442;&#x440;&#x456;&#x431;&#x43d;&#x43e; &#x434;&#x43e; &#x442;&#x438;&#x445; &#x43b;&#x456;&#x432;&#x438;&#x445; &#x447;&#x430;&#x441;&#x442;&#x438;&#x43d; &#x44f;&#x43a;&#x456; &#x43d;&#x435; &#x431;&#x456;&#x43b;&#x44c;&#x448;&#x456; &#x43f;&#x440;&#x430;&#x432;&#x438;&#x445; &#x447;&#x430;&#x441;&#x442;&#x438;&#x43d;"/>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;center&gt;&#x414;&#x43e;&#x434;&#x430;&#x432;&#x430;&#x442;&#x438; &#x43d;&#x435;&#x432;&#x456;&#x434;&#x2019;&#x454;&#x43c;&#x43d;&#x456; &#x437;&#x43c;&#x456;&#x43d;&#x43d;&#x456; &#x43f;&#x43e;&#x442;&#x440;&#x456;&#x431;&#x43d;&#x43e; &#x434;&#x43e; &#x442;&#x438;&#x445; &#x43b;&#x456;&#x432;&#x438;&#x445; &#x447;&#x430;&#x441;&#x442;&#x438;&#x43d;, &#x44f;&#x43a;&#x456; &#x43d;&#x435; &#x431;&#x456;&#x43b;&#x44c;&#x448;&#x456; &#x43f;&#x440;&#x430;&#x432;&#x438;&#x445; &#x447;&#x430;&#x441;&#x442;&#x438;&#x43d;&lt;/center&gt;&lt;/html&gt;"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="30" y="150" width="-1" height="-1"/>
+                  <AbsoluteConstraints x="70" y="150" width="480" height="-1"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -7380,13 +7428,13 @@
             <Component class="javax.swing.JLabel" name="jLabel52">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Tahoma" size="18" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&#x412;&#x456;&#x434;&#x43d;&#x456;&#x43c;&#x430;&#x442;&#x438; &#x43d;&#x435;&#x432;&#x456;&#x434;&#x2019;&#x454;&#x43c;&#x43d;&#x456; &#x437;&#x43c;&#x456;&#x43d;&#x43d;&#x456; &#x43f;&#x43e;&#x442;&#x440;&#x456;&#x431;&#x43d;&#x43e; &#x432;&#x456;&#x434; &#x442;&#x438;&#x445; &#x43b;&#x456;&#x432;&#x438;&#x445; &#x447;&#x430;&#x441;&#x442;&#x438;&#x43d; &#x44f;&#x43a;&#x456; &#x43d;&#x435; &#x43c;&#x435;&#x43d;&#x448;&#x435; &#x43f;&#x440;&#x430;&#x432;&#x438;&#x445; &#x447;&#x430;&#x441;&#x442;&#x438;&#x43d;"/>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;center&gt;&#x412;&#x456;&#x434;&#x43d;&#x456;&#x43c;&#x430;&#x442;&#x438; &#x43d;&#x435;&#x432;&#x456;&#x434;&#x2019;&#x454;&#x43c;&#x43d;&#x456; &#x437;&#x43c;&#x456;&#x43d;&#x43d;&#x456; &#x43f;&#x43e;&#x442;&#x440;&#x456;&#x431;&#x43d;&#x43e; &#x432;&#x456;&#x434; &#x442;&#x438;&#x445; &#x43b;&#x456;&#x432;&#x438;&#x445; &#x447;&#x430;&#x441;&#x442;&#x438;&#x43d;, &#x44f;&#x43a;&#x456; &#x43d;&#x435; &#x43c;&#x435;&#x43d;&#x448;&#x435; &#x43f;&#x440;&#x430;&#x432;&#x438;&#x445; &#x447;&#x430;&#x441;&#x442;&#x438;&#x43d;&lt;/center&gt;&lt;/html&gt;"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="30" y="150" width="-1" height="-1"/>
+                  <AbsoluteConstraints x="40" y="150" width="540" height="-1"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -7422,13 +7470,13 @@
             <Component class="javax.swing.JLabel" name="jLabel53">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Tahoma" size="18" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;center&gt;&#x421;&#x432;&#x43e;&#x44f; &#x43d;&#x43e;&#x432;&#x430; &#x43d;&#x435;&#x432;&#x456;&#x434;&#x2019;&#x454;&#x43c;&#x43d;&#x430; &#x437;&#x43c;&#x456;&#x43d;&#x43d;&#x430; &#x434;&#x43e;&#x434;&#x430;&#x454;&#x442;&#x44c;&#x441;&#x44f; &#x432; &#x43a;&#x43e;&#x436;&#x43d;&#x435; &#x442;&#x435; &#x440;&#x456;&#x432;&#x43d;&#x44f;&#x43d;&#x43d;&#x44f;, &#x434;&#x435; &#x43d;&#x435; &#x43c;&#x430;&#x454; &#x431;&#x430;&#x437;&#x438;&#x441;&#x43d;&#x43e;&#x457;&lt;br&gt; &#x437;&#x43c;&#x456;&#x43d;&#x43d;&#x43e;&#x457;, &#x430; &#x432; &#x446;&#x456;&#x43b;&#x44c;&#x43e;&#x432;&#x443; &#x444;&#x443;&#x43d;&#x43a;&#x446;&#x456;&#x44e; &#x434;&#x43e;&#x434;&#x430;&#x44e;&#x442;&#x44c;&#x441;&#x44f; &#x434;&#x43e;&#x434;&#x430;&#x43d;&#x43a;&#x438;  &#x2013;&#x41c;xk , &#x434;&#x435; xk &#x2013; &#x432;&#x441;&#x456; &#x43d;&#x43e;&#x432;&#x456; &#x434;&#x43e;&#x434;&#x430;&#x43d;&#x456; &#x432;&lt;br&gt; &#x440;&#x456;&#x432;&#x43d;&#x44f;&#x43d;&#x43d;&#x44f; &#x437;&#x43c;&#x456;&#x43d;&#x43d;&#x456; &#x437;&#x430;&#x434;&#x430;&#x447;&#x456;, &#x430; &#x41c;&gt;0&lt;/html&gt;"/>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;center&gt;&#x421;&#x432;&#x43e;&#x44f; &#x43d;&#x43e;&#x432;&#x430; &#x43d;&#x435;&#x432;&#x456;&#x434;&#x2019;&#x454;&#x43c;&#x43d;&#x430; &#x437;&#x43c;&#x456;&#x43d;&#x43d;&#x430; &#x434;&#x43e;&#x434;&#x430;&#x454;&#x442;&#x44c;&#x441;&#x44f; &#x432; &#x43a;&#x43e;&#x436;&#x43d;&#x435; &#x442;&#x435; &#x440;&#x456;&#x432;&#x43d;&#x44f;&#x43d;&#x43d;&#x44f;, &#x434;&#x435; &#x43d;&#x435; &#x43c;&#x430;&#x454; &#x431;&#x430;&#x437;&#x438;&#x441;&#x43d;&#x43e;&#x457; &#x437;&#x43c;&#x456;&#x43d;&#x43d;&#x43e;&#x457;, &#x430; &#x432; &#x446;&#x456;&#x43b;&#x44c;&#x43e;&#x432;&#x443; &#x444;&#x443;&#x43d;&#x43a;&#x446;&#x456;&#x44e; &#x434;&#x43e;&#x434;&#x430;&#x44e;&#x442;&#x44c;&#x441;&#x44f; &#x434;&#x43e;&#x434;&#x430;&#x43d;&#x43a;&#x438;  &#x2013;&#x41c;x&lt;sub&gt;k&lt;/sub&gt; , &#x434;&#x435; x&lt;sub&gt;k&lt;/sub&gt; &#x2013; &#x432;&#x441;&#x456; &#x43d;&#x43e;&#x432;&#x456; &#x434;&#x43e;&#x434;&#x430;&#x43d;&#x456; &#x432; &#x440;&#x456;&#x432;&#x43d;&#x44f;&#x43d;&#x43d;&#x44f; &#x437;&#x43c;&#x456;&#x43d;&#x43d;&#x456; &#x437;&#x430;&#x434;&#x430;&#x447;&#x456;, &#x430; &#x41c;&gt;0&lt;/html&gt;"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="40" y="140" width="-1" height="-1"/>
+                  <AbsoluteConstraints x="50" y="120" width="490" height="-1"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -7464,13 +7512,13 @@
             <Component class="javax.swing.JLabel" name="jLabel54">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Tahoma" size="18" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;center&gt;&#x417;&#x43c;&#x456;&#x43d;&#x43d;&#x443; &#x43f;&#x43e;&#x442;&#x440;&#x456;&#x431;&#x43d;&#x43e; &#x434;&#x43e;&#x434;&#x430;&#x442;&#x438; &#x434;&#x43e; &#x442;&#x440;&#x435;&#x442;&#x44c;&#x43e;&#x433;&#x43e; &#x440;&#x456;&#x432;&#x43d;&#x44f;&#x43d;&#x43d;&#x44f;, &#x43e;&#x441;&#x43a;&#x456;&#x43b;&#x44c;&#x43a;&#x438; &#x442;&#x456;&#x43b;&#x44c;&#x43a;&#x438; &#x432; &#x43d;&#x44c;&#x43e;&#x43c;&#x443; &#x43d;&#x435;&#x43c;&#x430;&#x454;&lt;br&gt; &#x431;&#x430;&#x437;&#x438;&#x441;&#x43d;&#x43e;&#x457; &#x437;&#x43c;&#x456;&#x43d;&#x43d;&#x43e;&#x457;&lt;/html&gt;"/>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;center&gt;&#x417;&#x43c;&#x456;&#x43d;&#x43d;&#x443; &#x43f;&#x43e;&#x442;&#x440;&#x456;&#x431;&#x43d;&#x43e; &#x434;&#x43e;&#x434;&#x430;&#x442;&#x438; &#x434;&#x43e; &#x442;&#x440;&#x435;&#x442;&#x44c;&#x43e;&#x433;&#x43e; &#x440;&#x456;&#x432;&#x43d;&#x44f;&#x43d;&#x43d;&#x44f;, &#x43e;&#x441;&#x43a;&#x456;&#x43b;&#x44c;&#x43a;&#x438; &#x442;&#x456;&#x43b;&#x44c;&#x43a;&#x438; &#x432; &#x43d;&#x44c;&#x43e;&#x43c;&#x443; &#x43d;&#x435;&#x43c;&#x430;&#x454; &#x431;&#x430;&#x437;&#x438;&#x441;&#x43d;&#x43e;&#x457; &#x437;&#x43c;&#x456;&#x43d;&#x43d;&#x43e;&#x457;&lt;/html&gt;"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="60" y="130" width="-1" height="-1"/>
+                  <AbsoluteConstraints x="40" y="130" width="530" height="-1"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -7506,13 +7554,13 @@
             <Component class="javax.swing.JLabel" name="jLabel55">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Tahoma" size="18" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;center&gt;&#x414;&#x43e; &#x446;&#x456;&#x43b;&#x44c;&#x43e;&#x432;&#x43e;&#x457; &#x444;&#x443;&#x43d;&#x43a;&#x446;&#x456;&#x457; &#x434;&#x43e;&#x434;&#x430;&#x454;&#x442;&#x44c;&#x441;&#x44f; &#x435;&#x43b;&#x435;&#x43c;&#x435;&#x43d;&#x442; &#xab;&#x2013;Mx7&#xbb;,&lt;br&gt; &#x456; &#x446;&#x456;&#x43b;&#x44c;&#x43e;&#x432;&#x430; &#x444;&#x443;&#x43d;&#x43a;&#x446;&#x456;&#x44f; &#x431;&#x443;&#x434;&#x435; &#x43c;&#x430;&#x442;&#x438; &#x442;&#x430;&#x43a;&#x438;&#x439; &#x432;&#x438;&#x433;&#x43b;&#x44f;&#x434;:&lt;br&gt; F=2x&lt;sub&gt;1&lt;/sub&gt;-3x&lt;sub&gt;2&lt;/sub&gt;+6x&lt;sub&gt;3&lt;/sub&gt;+4x&lt;sub&gt;4&lt;/sub&gt;-Mx&lt;sub&gt;7&lt;/sub&gt;&#x2192;max,M&gt;0 &lt;/html&gt;"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="130" y="130" width="-1" height="-1"/>
+                  <AbsoluteConstraints x="110" y="130" width="-1" height="-1"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -7548,13 +7596,13 @@
             <Component class="javax.swing.JLabel" name="jLabel56">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Tahoma" size="18" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="&#x41f;&#x43e;&#x43c;&#x438;&#x43b;&#x43a;&#x430;, &#x43f;&#x440;&#x430;&#x432;&#x438;&#x43b;&#x44c;&#x43d;&#x430; &#x432;&#x456;&#x434;&#x43f;&#x43e;&#x432;&#x456;&#x434;&#x44c;: &#x43d;&#x430; &#x43e;&#x434;&#x438;&#x43d; &#x440;&#x44f;&#x434;&#x43e;&#x43a; &#x431;&#x456;&#x43b;&#x44c;&#x448;&#x435;"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="130" y="150" width="-1" height="-1"/>
+                  <AbsoluteConstraints x="90" y="150" width="-1" height="-1"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -7716,13 +7764,13 @@
             <Component class="javax.swing.JLabel" name="jLabel63">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
+                  <Font name="Tahoma" size="18" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&lt;html&gt;&#x41d;&#x430;&#x434;  P&lt;sub&gt;1&lt;/sub&gt; &#x437;&#x430;&#x43f;&#x438;&#x441;&#x443;&#x454;&#x442;&#x44c;&#x441;&#x44f; &#x43a;&#x43e;&#x435;&#x444;&#x456;&#x446;&#x456;&#x454;&#x43d;&#x442; &#x43f;&#x440;&#x438; x&lt;sub&gt;1&lt;/sub&gt; &#x432; &#x446;&#x456;&#x43b;&#x44c;&#x43e;&#x432;&#x456;&#x439; &#x444;&#x443;&#x43d;&#x43a;&#x446;&#x456;&#x457; &#x456; &#x442;&#x430;&#x43a; &#x434;&#x430;&#x43b;&#x456;. &lt;br&gt;&#x41a;&#x43e;&#x43c;&#x456;&#x440;&#x43a;&#x438; &#x43d;&#x430;&#x434; P&lt;sub&gt;1&lt;/sub&gt;,&#x2026;, P&lt;sub&gt;6&lt;/sub&gt; &#x43f;&#x43e;&#x432;&#x438;&#x43d;&#x43d;&#x456; &#x43c;&#x456;&#x441;&#x442;&#x438;&#x442;&#x438; (2, -3, 6, 1, 0, 0)&#xbb;, &lt;/html&gt;"/>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;center&gt;&#x41d;&#x430;&#x434;  P&lt;sub&gt;1&lt;/sub&gt; &#x437;&#x430;&#x43f;&#x438;&#x441;&#x443;&#x454;&#x442;&#x44c;&#x441;&#x44f; &#x43a;&#x43e;&#x435;&#x444;&#x456;&#x446;&#x456;&#x454;&#x43d;&#x442; &#x43f;&#x440;&#x438; x&lt;sub&gt;1&lt;/sub&gt; &#x432; &#x446;&#x456;&#x43b;&#x44c;&#x43e;&#x432;&#x456;&#x439; &#x444;&#x443;&#x43d;&#x43a;&#x446;&#x456;&#x457;, P&lt;sub&gt;2&lt;/sub&gt; &#x437;&#x430;&#x43f;&#x438;&#x441;&#x443;&#x454;&#x442;&#x44c;&#x441;&#x44f; &#x43a;&#x43e;&#x435;&#x444;&#x456;&#x446;&#x456;&#x454;&#x43d;&#x442; &#x43f;&#x440;&#x438; x&lt;sub&gt;2&lt;/sub&gt; &#x432; &#x446;&#x456;&#x43b;&#x44c;&#x43e;&#x432;&#x456;&#x439; &#x456; &#x442;&#x430;&#x43a; &#x434;&#x430;&#x43b;&#x456;&lt;/center&gt;&lt;/html&gt;"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="110" y="150" width="-1" height="-1"/>
+                  <AbsoluteConstraints x="60" y="140" width="490" height="-1"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -7760,7 +7808,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="18" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&lt;html&gt;&#x414;&#x43b;&#x44f; &#x431;&#x430;&#x437;&#x438;&#x441;&#x443; &#x420;&lt;sub&gt;4&lt;/sub&gt; &#x437;&#x43d;&#x430;&#x447;&#x435;&#x43d;&#x43d;&#x44f; &#x420;&lt;sub&gt;0&lt;/sub&gt; &#x43c;&#x430;&#x454; &#x437;&#x43d;&#x430;&#x447;&#x435;&#x43d;&#x43d;&#x44f; 24; &lt;br&gt;&#x414;&#x43b;&#x44f; &#x431;&#x430;&#x437;&#x438;&#x441;&#x443; &#x420;&lt;sub&gt;5&lt;/sub&gt; &#x437;&#x43d;&#x430;&#x447;&#x435;&#x43d;&#x43d;&#x44f; &#x420;&lt;sub&gt;0&lt;/sub&gt; &#x43c;&#x430;&#x454; &#x437;&#x43d;&#x430;&#x447;&#x435;&#x43d;&#x43d;&#x44f; 22;&lt;br&gt; &#x414;&#x43b;&#x44f; &#x431;&#x430;&#x437;&#x438;&#x441;&#x443; &#x420;&lt;sub&gt;5&lt;/sub&gt; &#x437;&#x43d;&#x430;&#x447;&#x435;&#x43d;&#x43d;&#x44f; &#x420;&lt;sub&gt;0&lt;/sub&gt; &#x43c;&#x430;&#x454; &#x437;&#x43d;&#x430;&#x447;&#x435;&#x43d;&#x43d;&#x44f; 10&lt;/html&gt;"/>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt;&#x412; &#x448;&#x430;&#x43f;&#x43a;&#x443; &#x43d;&#x430;&#x434; &#x448;&#x442;&#x443;&#x447;&#x43d;&#x438;&#x43c; &#x432;&#x435;&#x43a;&#x442;&#x43e;&#x440;&#x43e;&#x43c; &#x432;&#x432;&#x43e;&#x434;&#x44f;&#x442;&#x44c;&#x441;&#x44f; &#x2013;&#x41c;&lt;/html&gt;"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -7800,13 +7848,13 @@
             <Component class="javax.swing.JLabel" name="jLabel71">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="24" style="0"/>
+                  <Font name="Tahoma" size="18" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&lt;html&gt;&#x412; &#x448;&#x430;&#x43f;&#x43a;&#x443; &#x43d;&#x430;&#x434; &#x448;&#x442;&#x443;&#x447;&#x43d;&#x438;&#x43c; &#x432;&#x435;&#x43a;&#x442;&#x43e;&#x440;&#x43e;&#x43c; &#x432;&#x432;&#x43e;&#x434;&#x44f;&#x442;&#x44c;&#x441;&#x44f; &#x2013;&#x41c;&lt;/html&gt;"/>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt;&#x412; &#x440;&#x44f;&#x434;&#x43a;&#x443; &#x431;&#x430;&#x437;&#x438;&#x441;&#x43d;&#x43e;&#x433;&#x43e; &#x432;&#x435;&#x43a;&#x442;&#x43e;&#x440;&#x430; &#x420;&lt;sub&gt;4&lt;/sub&gt; &#x435;&#x43b;&#x435;&#x43c;&#x435;&#x43d;&#x442; &#x420;&lt;sub&gt;0&lt;/sub&gt; &#x43c;&#x430;&#x454; &#x437;&#x43d;&#x430;&#x447;&#x435;&#x43d;&#x43d;&#x44f; 24; &#x432; &#x440;&#x44f;&#x434;&#x43a;&#x443; &#x431;&#x430;&#x437;&#x438;&#x441;&#x43d;&#x43e;&#x433;&#x43e; &#x432;&#x435;&#x43a;&#x442;&#x43e;&#x440;&#x430; &#x420;&lt;sub&gt;5&lt;/sub&gt; &#x435;&#x43b;&#x435;&#x43c;&#x435;&#x43d;&#x442; &#x420;&lt;sub&gt;0&lt;/sub&gt; &#x43c;&#x430;&#x454; &#x437;&#x43d;&#x430;&#x447;&#x435;&#x43d;&#x43d;&#x44f; 22; &#x432; &#x440;&#x44f;&#x434;&#x43a;&#x443; &#x431;&#x430;&#x437;&#x438;&#x441;&#x43d;&#x43e;&#x433;&#x43e; &#x432;&#x435;&#x43a;&#x442;&#x43e;&#x440;&#x430; &#x420;&lt;sub&gt;5&lt;/sub&gt; &#x435;&#x43b;&#x435;&#x43c;&#x435;&#x43d;&#x442; &#x420;&lt;sub&gt;0&lt;/sub&gt; &#x43c;&#x430;&#x454; &#x437;&#x43d;&#x430;&#x447;&#x435;&#x43d;&#x43d;&#x44f; 10;&lt;/html&gt;"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="50" y="150" width="-1" height="30"/>
+                  <AbsoluteConstraints x="60" y="100" width="510" height="130"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -9155,48 +9203,6 @@
             </Component>
           </SubComponents>
         </Container>
-        <Container class="javax.swing.JPanel" name="Condition">
-          <Constraints>
-            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
-              <CardConstraints cardName="Condition"/>
-            </Constraint>
-          </Constraints>
-
-          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
-            <Property name="useNullLayout" type="boolean" value="false"/>
-          </Layout>
-          <SubComponents>
-            <Component class="javax.swing.JLabel" name="jLabel185">
-              <Properties>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="18" style="0"/>
-                </Property>
-                <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;center&gt;X = (0, 0, 11/2, 35, 0, 1), &#x430; F&lt;sub&gt;min&lt;/sub&gt; = -68&lt;/center&gt;&lt;/html&gt;"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="140" y="140" width="350" height="60"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JButton" name="jButton52">
-              <Properties>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="14" style="0"/>
-                </Property>
-                <Property name="text" type="java.lang.String" value="&#x41d;&#x430;&#x441;&#x442;&#x443;&#x43f;&#x43d;&#x438;&#x439; &#x43a;&#x440;&#x43e;&#x43a;"/>
-              </Properties>
-              <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton52ActionPerformed"/>
-              </Events>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="436" y="286" width="-1" height="-1"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-          </SubComponents>
-        </Container>
         <Container class="javax.swing.JPanel" name="PEnd">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
@@ -9218,6 +9224,48 @@
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
                   <AbsoluteConstraints x="60" y="130" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="Condition">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="Condition"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="false"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel185">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt; &#x9;&#x426;&#x456;&#x43b;&#x44c;&#x43e;&#x432;&#x430; &#x444;&#x443;&#x43d;&#x43a;&#x446;&#x456;&#x44f;:&lt;br&gt; &#x9;F=2x&lt;sub&gt;1&lt;/sub&gt;-3x&lt;sub&gt;2&lt;/sub&gt;+6x&lt;sub&gt;3&lt;/sub&gt;+x&lt;sub&gt;4&lt;/sub&gt;-Mx&lt;sub&gt;7&lt;/sub&gt;&#x2192;max;&lt;br&gt; &#x9;&#x423;&#x43c;&#x43e;&#x432;&#x438;:&lt;br&gt; &#x9;2x&lt;sub&gt;1&lt;/sub&gt;+x&lt;sub&gt;2&lt;/sub&gt;-2x&lt;sub&gt;3&lt;/sub&gt;+x&lt;sub&gt;4&lt;/sub&gt;=24;&lt;br&gt; &#x9;x&lt;sub&gt;1&lt;/sub&gt;+2x&lt;sub&gt;2&lt;/sub&gt;+4x&lt;sub&gt;3&lt;/sub&gt;+x&lt;sub&gt;5&lt;/sub&gt;=22;&lt;br&gt; &#x9;x&lt;sub&gt;1&lt;/sub&gt;-x&lt;sub&gt;2&lt;/sub&gt;+2x&lt;sub&gt;3&lt;/sub&gt;-x&lt;sub&gt;6&lt;/sub&gt;+x&lt;sub&gt;7&lt;/sub&gt;=10;&lt;br&gt; &#x9;x&lt;sub&gt;j&lt;/sub&gt;&#x2265;0, j=1..7;  &lt;/html&gt;"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="80" y="50" width="430" height="200"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton52">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x41f;&#x43e;&#x432;&#x435;&#x440;&#x43d;&#x443;&#x442;&#x438;&#x441;&#x44f; &#x434;&#x43e; &#x437;&#x430;&#x432;&#x434;&#x430;&#x43d;&#x43d;&#x44f;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton52ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="370" y="290" width="-1" height="-1"/>
                 </Constraint>
               </Constraints>
             </Component>

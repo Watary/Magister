@@ -79,6 +79,20 @@ public class JApplet extends javax.swing.JApplet {
         BG_T_14 = new javax.swing.ButtonGroup();
         BG_T_15 = new javax.swing.ButtonGroup();
         BG_T_16 = new javax.swing.ButtonGroup();
+        BG_T_23 = new javax.swing.ButtonGroup();
+        BG_T_25 = new javax.swing.ButtonGroup();
+        BG_T_28 = new javax.swing.ButtonGroup();
+        BG_T_29 = new javax.swing.ButtonGroup();
+        BG_T_30 = new javax.swing.ButtonGroup();
+        BG_T_31 = new javax.swing.ButtonGroup();
+        BG_T_32 = new javax.swing.ButtonGroup();
+        BG_T_36 = new javax.swing.ButtonGroup();
+        BG_T_38 = new javax.swing.ButtonGroup();
+        BG_T_40 = new javax.swing.ButtonGroup();
+        BG_T_43 = new javax.swing.ButtonGroup();
+        BG_T_44 = new javax.swing.ButtonGroup();
+        BG_T_45 = new javax.swing.ButtonGroup();
+        BG_T_49 = new javax.swing.ButtonGroup();
         MainPanel = new javax.swing.JPanel();
         PStart = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
@@ -2032,11 +2046,23 @@ public class JApplet extends javax.swing.JApplet {
         jLabel88.setText("<html> <head> \t<meta charset=\"UTF-8\"> </head> <body>  \t<table border=\"1\" cellpadding=\"3\" cellspacing=\"0\" style=\"text-align:center;\"> \t\t<tr> \t\t\t<td rowspan=\"2\"> i </td> \t\t\t<td rowspan=\"2\">Базис</td> \t\t\t<td rowspan=\"2\">С<sub>б</sub></td> \t\t\t<td rowspan=\"2\">P<sub>0</sub></td> \t\t\t<td>      2     </td> \t\t\t<td>     -3     </td> \t\t\t<td>      6     </td> \t\t\t<td>      1     </td> \t\t\t<td>      0     </td> \t\t\t<td>      0     </td> \t\t\t<td>     -M     </td> \t\t\t<td rowspan=\"2\">b<sub>i</sub>/a<sub>ik</sub></td> \t\t</tr> \t\t<tr> \t\t\t<td>P<sub>1</sub></td> \t\t\t<td>P<sub>2</sub></td> \t\t\t<td>P<sub>3</sub></td> \t\t\t<td>P<sub>4</sub></td> \t\t\t<td>P<sub>5</sub></td> \t\t\t<td>P<sub>6</sub></td> \t\t\t<td>P<sub>7</sub></td> \t\t</tr> \t\t<tr> \t\t\t<td>1</td> \t\t\t<td>P<sub>4</sub></td> \t\t\t<td>1</td> \t\t\t<td>24</td> \t\t\t<td>2</td> \t\t\t<td>1</td> \t\t\t<td>-2</td> \t\t\t<td>1</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td></td> \t\t</tr> \t\t<tr> \t\t\t<td>2</td> \t\t\t<td>P<sub>5</sub></td> \t\t\t<td>0</td> \t\t\t<td>22</td> \t\t\t<td>1</td> \t\t\t<td>2</td> \t\t\t<td>4</td> \t\t\t<td>0</td> \t\t\t<td>1</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td></td> \t\t</tr> \t\t<tr> \t\t\t<td>3</td> \t\t\t<td>P<sub>7</sub></td> \t\t\t<td>-M</td> \t\t\t<td>10</td> \t\t\t<td>1</td> \t\t\t<td>-1</td> \t\t\t<td>2</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>-1</td> \t\t\t<td>1</td> \t\t\t<td></td> \t\t</tr> \t\t<tr> \t\t\t<td>4</td> \t\t\t<td></td> \t\t\t<td></td> \t\t\t<td>24</td> \t\t\t<td>0</td> \t\t\t<td>4</td> \t\t\t<td>-8</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td></td> \t\t</tr> \t\t<tr> \t\t\t<td>5</td> \t\t\t<td></td> \t\t\t<td></td> \t\t\t<td>-10</td> \t\t\t<td>-1</td> \t\t\t<td>1</td> \t\t\t<td>-2</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>1</td> \t\t\t<td>1</td> \t\t\t<td></td> \t\t</tr>\t \t</table> </body> </html>");
         PTask_23.add(jLabel88, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 100, -1, -1));
         PTask_23.add(RB_T23_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 70, -1, -1));
+
+        BG_T_23.add(RB_T23_2);
         PTask_23.add(RB_T23_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 70, -1, -1));
+
+        BG_T_23.add(RB_T23_3);
         PTask_23.add(RB_T23_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 70, -1, -1));
+
+        BG_T_23.add(RB_T23_4);
         PTask_23.add(RB_T23_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 70, -1, -1));
+
+        BG_T_23.add(RB_T23_5);
         PTask_23.add(RB_T23_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 70, -1, -1));
+
+        BG_T_23.add(RB_T23_6);
         PTask_23.add(RB_T23_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 70, -1, -1));
+
+        BG_T_23.add(RB_T23_7);
         PTask_23.add(RB_T23_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 70, -1, -1));
 
         MainPanel.add(PTask_23, "CTask_23");
@@ -2112,8 +2138,14 @@ public class JApplet extends javax.swing.JApplet {
         jLabel91.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel91.setText("<html> <head> \t<meta charset=\"UTF-8\"> </head> <body>  \t<table border=\"1\" cellpadding=\"3\" cellspacing=\"0\" style=\"text-align:center;\"> \t\t<tr> \t\t\t<td rowspan=\"2\"> i </td> \t\t\t<td rowspan=\"2\">Базис</td> \t\t\t<td rowspan=\"2\">С<sub>б</sub></td> \t\t\t<td rowspan=\"2\">P<sub>0</sub></td> \t\t\t<td>    2   </td> \t\t\t<td>   -3   </td> \t\t\t<td>    6   </td> \t\t\t<td>    1   </td> \t\t\t<td>    0   </td> \t\t\t<td>    0   </td> \t\t\t<td>   -M   </td> \t\t\t<td rowspan=\"2\">   b<sub>i</sub>/a<sub>ik</sub>   </td> \t\t</tr> \t\t<tr> \t\t\t<td>P<sub>1</sub></td> \t\t\t<td>P<sub>2</sub></td> \t\t\t<td>P<sub>3</sub></td> \t\t\t<td>P<sub>4</sub></td> \t\t\t<td>P<sub>5</sub></td> \t\t\t<td>P<sub>6</sub></td> \t\t\t<td>P<sub>7</sub></td> \t\t</tr> \t\t<tr> \t\t\t<td>1</td> \t\t\t<td>P<sub>4</sub></td> \t\t\t<td>1</td> \t\t\t<td>24</td> \t\t\t<td>2</td> \t\t\t<td>1</td> \t\t\t<td>-2</td> \t\t\t<td>1</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td></td> \t\t</tr> \t\t<tr> \t\t\t<td>2</td> \t\t\t<td>P<sub>5</sub></td> \t\t\t<td>0</td> \t\t\t<td>22</td> \t\t\t<td>1</td> \t\t\t<td>2</td> \t\t\t<td>4</td> \t\t\t<td>0</td> \t\t\t<td>1</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>5.5</td> \t\t</tr> \t\t<tr> \t\t\t<td>3</td> \t\t\t<td>P<sub>7</sub></td> \t\t\t<td>-M</td> \t\t\t<td>10</td> \t\t\t<td>1</td> \t\t\t<td>-1</td> \t\t\t<td>2</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>-1</td> \t\t\t<td>1</td> \t\t\t<td>5</td> \t\t</tr> \t\t<tr> \t\t\t<td>4</td> \t\t\t<td></td> \t\t\t<td></td> \t\t\t<td>24</td> \t\t\t<td>0</td> \t\t\t<td>4</td> \t\t\t<td>-8</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td></td> \t\t</tr> \t\t<tr> \t\t\t<td>5</td> \t\t\t<td></td> \t\t\t<td></td> \t\t\t<td>-10</td> \t\t\t<td>-1</td> \t\t\t<td>1</td> \t\t\t<td>-2</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>1</td> \t\t\t<td>1</td> \t\t\t<td></td> \t\t</tr>\t \t</table> </body> </html>");
         PTask_25.add(jLabel91, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, -1, -1));
+
+        BG_T_25.add(RB_T25_1);
         PTask_25.add(RB_T25_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 165, -1, -1));
+
+        BG_T_25.add(RB_T25_2);
         PTask_25.add(RB_T25_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 195, -1, -1));
+
+        BG_T_25.add(RB_T25_3);
         PTask_25.add(RB_T25_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 225, -1, -1));
 
         MainPanel.add(PTask_25, "CTask_25");
@@ -2249,18 +2281,22 @@ public class JApplet extends javax.swing.JApplet {
         jLabel100.setText("Виберіть правильну відповідь:");
         PTask_28.add(jLabel100, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 120, -1, -1));
 
+        BG_T_28.add(RB_T28_1);
         RB_T28_1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T28_1.setText("Залишаються не змінними");
         PTask_28.add(RB_T28_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 160, -1, -1));
 
+        BG_T_28.add(RB_T28_2);
         RB_T28_2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T28_2.setText("Приймають значення «1»");
         PTask_28.add(RB_T28_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 190, -1, -1));
 
+        BG_T_28.add(RB_T28_3);
         RB_T28_3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T28_3.setText("Приймають значення «0»");
         PTask_28.add(RB_T28_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 220, -1, -1));
 
+        BG_T_28.add(RB_T28_4);
         RB_T28_4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T28_4.setText("Діляться на розв’язальний елемент");
         PTask_28.add(RB_T28_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
@@ -2286,18 +2322,22 @@ public class JApplet extends javax.swing.JApplet {
         jLabel103.setText("Виберіть правильну відповідь:");
         PTask_29.add(jLabel103, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 120, -1, -1));
 
+        BG_T_29.add(RB_T29_1);
         RB_T29_1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T29_1.setText("Залишаться незмінні");
         PTask_29.add(RB_T29_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 160, -1, -1));
 
+        BG_T_29.add(RB_T29_2);
         RB_T29_2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T29_2.setText("<html>Стовбець Р<sub>7</sub> зникне</html>");
         PTask_29.add(RB_T29_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 190, -1, -1));
 
+        BG_T_29.add(RB_T29_3);
         RB_T29_3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T29_3.setText("Останній рядок зникне");
         PTask_29.add(RB_T29_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 220, -1, -1));
 
+        BG_T_29.add(RB_T29_4);
         RB_T29_4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T29_4.setText("<html>Зникне і останній рядок і стовбець Р<sub>7</sub></html>");
         PTask_29.add(RB_T29_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
@@ -2323,34 +2363,42 @@ public class JApplet extends javax.swing.JApplet {
         jLabel106.setText("Виберіть правильну відповідь:");
         PTask_30.add(jLabel106, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 80, -1, -1));
 
+        BG_T_30.add(RB_T30_1);
         RB_T30_1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T30_1.setText("Базис не змінюється");
         PTask_30.add(RB_T30_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 130, -1, -1));
 
+        BG_T_30.add(RB_T30_2);
         RB_T30_2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T30_2.setText("<html>P<sub>1</sub></html>");
         PTask_30.add(RB_T30_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 160, -1, -1));
 
+        BG_T_30.add(RB_T30_3);
         RB_T30_3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T30_3.setText("<html>P<sub>2</sub></html>");
         PTask_30.add(RB_T30_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 190, -1, -1));
 
+        BG_T_30.add(RB_T30_4);
         RB_T30_4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T30_4.setText("<html>P<sub>3</sub></html>");
         PTask_30.add(RB_T30_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 220, -1, -1));
 
+        BG_T_30.add(RB_T30_5);
         RB_T30_5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T30_5.setText("<html>P<sub>4</sub></html>");
         PTask_30.add(RB_T30_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 130, -1, -1));
 
+        BG_T_30.add(RB_T30_6);
         RB_T30_6.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T30_6.setText("<html>P<sub>5</sub></html>");
         PTask_30.add(RB_T30_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 160, -1, -1));
 
+        BG_T_30.add(RB_T30_7);
         RB_T30_7.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T30_7.setText("<html>P<sub>6</sub></html>");
         PTask_30.add(RB_T30_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 190, -1, -1));
 
+        BG_T_30.add(RB_T30_8);
         RB_T30_8.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T30_8.setText("Викреслюємо рядок");
         PTask_30.add(RB_T30_8, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 220, -1, -1));
@@ -2376,10 +2424,12 @@ public class JApplet extends javax.swing.JApplet {
         jLabel110.setText("Виберіть правильну відповідь:");
         PTask_31.add(jLabel110, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 100, -1, -1));
 
+        BG_T_31.add(RB_T31_1);
         RB_T31_1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T31_1.setText("0");
         PTask_31.add(RB_T31_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 130, -1, -1));
 
+        BG_T_31.add(RB_T31_2);
         RB_T31_2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T31_2.setText("1");
         RB_T31_2.addActionListener(new java.awt.event.ActionListener() {
@@ -2389,10 +2439,12 @@ public class JApplet extends javax.swing.JApplet {
         });
         PTask_31.add(RB_T31_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 160, -1, -1));
 
+        BG_T_31.add(RB_T31_3);
         RB_T31_3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T31_3.setText("2");
         PTask_31.add(RB_T31_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 190, -1, -1));
 
+        BG_T_31.add(RB_T31_4);
         RB_T31_4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T31_4.setText("-3");
         RB_T31_4.addActionListener(new java.awt.event.ActionListener() {
@@ -2402,10 +2454,12 @@ public class JApplet extends javax.swing.JApplet {
         });
         PTask_31.add(RB_T31_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 130, -1, -1));
 
+        BG_T_31.add(RB_T31_5);
         RB_T31_5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T31_5.setText("6");
         PTask_31.add(RB_T31_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 160, -1, -1));
 
+        BG_T_31.add(RB_T31_6);
         RB_T31_6.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T31_6.setText("-6");
         PTask_31.add(RB_T31_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 190, -1, -1));
@@ -2431,10 +2485,12 @@ public class JApplet extends javax.swing.JApplet {
         jLabel112.setText("Виберіть правильну відповідь:");
         PTask_32.add(jLabel112, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 90, -1, -1));
 
+        BG_T_32.add(RB_T32_1);
         RB_T32_1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T32_1.setText("[2]-[3]*[4]/[1]");
         PTask_32.add(RB_T32_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, -1, -1));
 
+        BG_T_32.add(RB_T32_2);
         RB_T32_2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T32_2.setText("[1]-[3]*[4]/[2]");
         RB_T32_2.addActionListener(new java.awt.event.ActionListener() {
@@ -2444,10 +2500,12 @@ public class JApplet extends javax.swing.JApplet {
         });
         PTask_32.add(RB_T32_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, -1, -1));
 
+        BG_T_32.add(RB_T32_3);
         RB_T32_3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T32_3.setText("[4]-[1]*[2]/[3]");
         PTask_32.add(RB_T32_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 120, -1, -1));
 
+        BG_T_32.add(RB_T32_4);
         RB_T32_4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T32_4.setText("[3]-[1]*[2]/[4]");
         PTask_32.add(RB_T32_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 150, -1, -1));
@@ -2706,9 +2764,11 @@ public class JApplet extends javax.swing.JApplet {
         jLabel129.setText("Варіанти відповіді:");
         PTask_36.add(jLabel129, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, -1, -1));
 
+        BG_T_36.add(RB_T36_1);
         RB_T36_1.setText("Так");
         PTask_36.add(RB_T36_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 60, -1, -1));
 
+        BG_T_36.add(RB_T36_2);
         RB_T36_2.setText("Ні");
         PTask_36.add(RB_T36_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 60, -1, -1));
 
@@ -2800,11 +2860,23 @@ public class JApplet extends javax.swing.JApplet {
         jLabel136.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel136.setText("<html> <head> \t<meta charset=\"UTF-8\"> </head> <body>  \t<table border=\"1\" cellpadding=\"3\" cellspacing=\"0\" style=\"text-align:center;\"> \t\t<tr> \t\t\t<td rowspan=\"2\"> i </td> \t\t\t<td rowspan=\"2\">Базис</td> \t\t\t<td rowspan=\"2\">С<sub>б</sub></td> \t\t\t<td rowspan=\"2\">      P<sub>0</sub>    </td> \t\t\t<td>      2    </td> \t\t\t<td>     -3    </td> \t\t\t<td>      6    </td> \t\t\t<td>      1    </td> \t\t\t<td>      0    </td> \t\t\t<td>      0    </td> \t\t\t<td rowspan=\"2\">   b<sub>i</sub>/a<sub>ik</sub>   </td> \t\t</tr> \t\t<tr> \t\t\t<td>P<sub>1</sub></td> \t\t\t<td>P<sub>2</sub></td> \t\t\t<td>P<sub>3</sub></td> \t\t\t<td>P<sub>4</sub></td> \t\t\t<td>P<sub>5</sub></td> \t\t\t<td>P<sub>6</sub></td> \t\t</tr> \t\t<tr> \t\t\t<td>1</td> \t\t\t<td>P<sub>4</sub></td> \t\t\t<td>1</td> \t\t\t<td>34</td> \t\t\t<td>3</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>1</td> \t\t\t<td>0</td> \t\t\t<td>-1</td> \t\t\t<td></td> \t\t</tr> \t\t<tr> \t\t\t<td>2</td> \t\t\t<td>P<sub>5</sub></td> \t\t\t<td>0</td> \t\t\t<td>2</td> \t\t\t<td>-1</td> \t\t\t<td>4</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>1</td> \t\t\t<td>2</td> \t\t\t<td></td> \t\t</tr> \t\t<tr> \t\t\t<td>3</td> \t\t\t<td>P<sub>3</sub></td> \t\t\t<td>6</td> \t\t\t<td>5</td> \t\t\t<td>1/2</td> \t\t\t<td>-1/2</td> \t\t\t<td>1</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>-1/2</td> \t\t\t<td></td> \t\t</tr> \t\t<tr> \t\t\t<td>4</td> \t\t\t<td></td> \t\t\t<td></td> \t\t\t<td>64</td> \t\t\t<td>4</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>-4</td> \t\t\t<td></td> \t\t</tr>\t \t</table> </body> </html>");
         PTask_38.add(jLabel136, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, -1, -1));
+
+        BG_T_38.add(RB_T38_1);
         PTask_38.add(RB_T38_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 75, -1, -1));
+
+        BG_T_38.add(RB_T38_2);
         PTask_38.add(RB_T38_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 75, -1, -1));
+
+        BG_T_38.add(RB_T38_3);
         PTask_38.add(RB_T38_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(305, 75, -1, -1));
+
+        BG_T_38.add(RB_T38_4);
         PTask_38.add(RB_T38_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 75, -1, -1));
+
+        BG_T_38.add(RB_T38_5);
         PTask_38.add(RB_T38_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(415, 75, -1, -1));
+
+        BG_T_38.add(RB_T38_6);
         PTask_38.add(RB_T38_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 75, -1, -1));
 
         MainPanel.add(PTask_38, "CTask_38");
@@ -2863,8 +2935,14 @@ public class JApplet extends javax.swing.JApplet {
         jLabel143.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel143.setText("<html> <head> \t<meta charset=\"UTF-8\"> </head> <body>  \t<table border=\"1\" cellpadding=\"3\" cellspacing=\"0\" style=\"text-align:center;\"> \t\t<tr> \t\t\t<td rowspan=\"2\"> i </td> \t\t\t<td rowspan=\"2\">Базис</td> \t\t\t<td rowspan=\"2\">С<sub>б</sub></td> \t\t\t<td rowspan=\"2\">      P<sub>0</sub>    </td> \t\t\t<td>      2    </td> \t\t\t<td>     -3    </td> \t\t\t<td>      6    </td> \t\t\t<td>      1    </td> \t\t\t<td>      0    </td> \t\t\t<td>      0    </td> \t\t\t<td rowspan=\"2\">   b<sub>i</sub>/a<sub>ik</sub>   </td> \t\t</tr> \t\t<tr> \t\t\t<td>P<sub>1</sub></td> \t\t\t<td>P<sub>2</sub></td> \t\t\t<td>P<sub>3</sub></td> \t\t\t<td>P<sub>4</sub></td> \t\t\t<td>P<sub>5</sub></td> \t\t\t<td>P<sub>6</sub></td> \t\t</tr> \t\t<tr> \t\t\t<td>1</td> \t\t\t<td>P<sub>4</sub></td> \t\t\t<td>1</td> \t\t\t<td>34</td> \t\t\t<td>3</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>1</td> \t\t\t<td>0</td> \t\t\t<td>-1</td> \t\t\t<td></td> \t\t</tr> \t\t<tr> \t\t\t<td>2</td> \t\t\t<td>P<sub>5</sub></td> \t\t\t<td>0</td> \t\t\t<td>2</td> \t\t\t<td>-1</td> \t\t\t<td>4</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>1</td> \t\t\t<td>2</td> \t\t\t<td></td> \t\t</tr> \t\t<tr> \t\t\t<td>3</td> \t\t\t<td>P<sub>3</sub></td> \t\t\t<td>6</td> \t\t\t<td>5</td> \t\t\t<td>1/2</td> \t\t\t<td>-1/2</td> \t\t\t<td>1</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>-1/2</td> \t\t\t<td></td> \t\t</tr> \t\t<tr> \t\t\t<td>4</td> \t\t\t<td></td> \t\t\t<td></td> \t\t\t<td>64</td> \t\t\t<td>4</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>0</td> \t\t\t<td>-4</td> \t\t\t<td></td> \t\t</tr>\t \t</table> </body> </html>");
         PTask_40.add(jLabel143, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 100, -1, -1));
+
+        BG_T_40.add(RB_T40_1);
         PTask_40.add(RB_T40_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 160, -1, -1));
+
+        BG_T_40.add(RB_T40_2);
         PTask_40.add(RB_T40_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 190, -1, -1));
+
+        BG_T_40.add(RB_T40_3);
         PTask_40.add(RB_T40_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 220, -1, -1));
 
         MainPanel.add(PTask_40, "CTask_40");
@@ -2989,18 +3067,22 @@ public class JApplet extends javax.swing.JApplet {
         jLabel151.setText("Виберіть правильну відповідь:");
         PTask_43.add(jLabel151, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 120, -1, -1));
 
+        BG_T_43.add(RB_T43_1);
         RB_T43_1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T43_1.setText("Залишаються не змінними");
         PTask_43.add(RB_T43_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 160, -1, -1));
 
+        BG_T_43.add(RB_T43_2);
         RB_T43_2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T43_2.setText("Приймають значення «1»");
         PTask_43.add(RB_T43_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 190, -1, -1));
 
+        BG_T_43.add(RB_T43_3);
         RB_T43_3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T43_3.setText("Приймають значення «0»");
         PTask_43.add(RB_T43_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 220, -1, -1));
 
+        BG_T_43.add(RB_T43_4);
         RB_T43_4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T43_4.setText("Діляться на розв’язальний елемент");
         PTask_43.add(RB_T43_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
@@ -3026,34 +3108,42 @@ public class JApplet extends javax.swing.JApplet {
         jLabel154.setText("Виберіть правильну відповідь:");
         PTask_44.add(jLabel154, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 80, -1, -1));
 
+        BG_T_44.add(RB_T44_1);
         RB_T44_1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T44_1.setText("Базис не змінюється");
         PTask_44.add(RB_T44_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 130, -1, -1));
 
+        BG_T_44.add(RB_T44_2);
         RB_T44_2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T44_2.setText("<html>P<sub>1</sub></html>");
         PTask_44.add(RB_T44_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 160, -1, -1));
 
+        BG_T_44.add(RB_T44_3);
         RB_T44_3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T44_3.setText("<html>P<sub>2</sub></html>");
         PTask_44.add(RB_T44_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 190, -1, -1));
 
+        BG_T_44.add(RB_T44_4);
         RB_T44_4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T44_4.setText("<html>P<sub>3</sub></html>");
         PTask_44.add(RB_T44_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 220, -1, -1));
 
+        BG_T_44.add(RB_T44_5);
         RB_T44_5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T44_5.setText("<html>P<sub>4</sub></html>");
         PTask_44.add(RB_T44_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 130, -1, -1));
 
+        BG_T_44.add(RB_T44_6);
         RB_T44_6.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T44_6.setText("<html>P<sub>5</sub></html>");
         PTask_44.add(RB_T44_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 160, -1, -1));
 
+        BG_T_44.add(RB_T44_7);
         RB_T44_7.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T44_7.setText("<html>P<sub>6</sub></html>");
         PTask_44.add(RB_T44_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 190, -1, -1));
 
+        BG_T_44.add(RB_T44_8);
         RB_T44_8.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T44_8.setText("Викреслюємо рядок");
         PTask_44.add(RB_T44_8, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 220, -1, -1));
@@ -3079,10 +3169,12 @@ public class JApplet extends javax.swing.JApplet {
         jLabel157.setText("Виберіть правильну відповідь:");
         PTask_45.add(jLabel157, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 100, -1, -1));
 
+        BG_T_45.add(RB_T45_1);
         RB_T45_1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T45_1.setText("0");
         PTask_45.add(RB_T45_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 130, -1, -1));
 
+        BG_T_45.add(RB_T45_2);
         RB_T45_2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T45_2.setText("1");
         RB_T45_2.addActionListener(new java.awt.event.ActionListener() {
@@ -3092,10 +3184,12 @@ public class JApplet extends javax.swing.JApplet {
         });
         PTask_45.add(RB_T45_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 160, -1, -1));
 
+        BG_T_45.add(RB_T45_3);
         RB_T45_3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T45_3.setText("2");
         PTask_45.add(RB_T45_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 190, -1, -1));
 
+        BG_T_45.add(RB_T45_4);
         RB_T45_4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T45_4.setText("-3");
         RB_T45_4.addActionListener(new java.awt.event.ActionListener() {
@@ -3105,10 +3199,12 @@ public class JApplet extends javax.swing.JApplet {
         });
         PTask_45.add(RB_T45_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 130, -1, -1));
 
+        BG_T_45.add(RB_T45_5);
         RB_T45_5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T45_5.setText("6");
         PTask_45.add(RB_T45_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 160, -1, -1));
 
+        BG_T_45.add(RB_T45_6);
         RB_T45_6.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         RB_T45_6.setText("-6");
         PTask_45.add(RB_T45_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 190, -1, -1));
@@ -3360,9 +3456,11 @@ public class JApplet extends javax.swing.JApplet {
         jLabel170.setText("Варіанти відповіді:");
         PTask_49.add(jLabel170, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, -1, -1));
 
+        BG_T_49.add(RB_T49_1);
         RB_T49_1.setText("Так");
         PTask_49.add(RB_T49_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 60, -1, -1));
 
+        BG_T_49.add(RB_T49_2);
         RB_T49_2.setText("Ні");
         PTask_49.add(RB_T49_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 60, -1, -1));
 
@@ -5540,8 +5638,22 @@ public class JApplet extends javax.swing.JApplet {
     private javax.swing.ButtonGroup BG_T_14;
     private javax.swing.ButtonGroup BG_T_15;
     private javax.swing.ButtonGroup BG_T_16;
+    private javax.swing.ButtonGroup BG_T_23;
+    private javax.swing.ButtonGroup BG_T_25;
+    private javax.swing.ButtonGroup BG_T_28;
+    private javax.swing.ButtonGroup BG_T_29;
     private javax.swing.ButtonGroup BG_T_3;
+    private javax.swing.ButtonGroup BG_T_30;
+    private javax.swing.ButtonGroup BG_T_31;
+    private javax.swing.ButtonGroup BG_T_32;
+    private javax.swing.ButtonGroup BG_T_36;
+    private javax.swing.ButtonGroup BG_T_38;
     private javax.swing.ButtonGroup BG_T_4;
+    private javax.swing.ButtonGroup BG_T_40;
+    private javax.swing.ButtonGroup BG_T_43;
+    private javax.swing.ButtonGroup BG_T_44;
+    private javax.swing.ButtonGroup BG_T_45;
+    private javax.swing.ButtonGroup BG_T_49;
     private javax.swing.ButtonGroup BG_T_5;
     private javax.swing.ButtonGroup BG_T_6;
     private javax.swing.ButtonGroup BG_T_8;

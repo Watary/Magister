@@ -150,6 +150,7 @@ public class JApplet extends javax.swing.JApplet {
         CB_T7_1 = new javax.swing.JComboBox<>();
         B_T_7 = new javax.swing.JButton();
         jLabel46 = new javax.swing.JLabel();
+        jButton56 = new javax.swing.JButton();
         PTask_8 = new javax.swing.JPanel();
         jLabel17 = new javax.swing.JLabel();
         jLabel18 = new javax.swing.JLabel();
@@ -1001,6 +1002,15 @@ public class JApplet extends javax.swing.JApplet {
         jLabel46.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel46.setText("<html>F=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2x<sub>1</sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3x<sub>2</sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x<sub>3</sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x<sub>4</sub>→&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>");
         PTask_7.add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 140, -1, -1));
+
+        jButton56.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jButton56.setText("Умова");
+        jButton56.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton56ActionPerformed(evt);
+            }
+        });
+        PTask_7.add(jButton56, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 310, 100, -1));
 
         MainPanel.add(PTask_7, "CTask_7");
 
@@ -5628,6 +5638,11 @@ public class JApplet extends javax.swing.JApplet {
         CardLayout cl = (CardLayout) MainPanel.getLayout();
         cl.show(MainPanel, "Condition");
     }//GEN-LAST:event_jButton55ActionPerformed
+
+    private void jButton56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton56ActionPerformed
+        CardLayout cl = (CardLayout) MainPanel.getLayout();
+        cl.show(MainPanel, "Condition");
+    }//GEN-LAST:event_jButton56ActionPerformed
        
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup BG_T_1;
@@ -6107,6 +6122,7 @@ public class JApplet extends javax.swing.JApplet {
     private javax.swing.JButton jButton53;
     private javax.swing.JButton jButton54;
     private javax.swing.JButton jButton55;
+    private javax.swing.JButton jButton56;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;

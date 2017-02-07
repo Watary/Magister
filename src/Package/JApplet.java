@@ -749,11 +749,11 @@ public class JApplet extends javax.swing.JApplet {
         PStart.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 310, -1, -1));
 
         jLabel36.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel36.setText("<html> <center>Вітаємо в тренажері на тему: <br /> \"Алгоритмізація та програмування елементів<br /> навчального тренажера з М-методу<br /> для задач лінійного програмування\" </center> </html>");
-        PStart.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
+        jLabel36.setText("<html> <center>Вітаємо в тренажері на тему: <br> М-методу для задач лінійного програмування </center> </html>");
+        PStart.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, -1, -1));
 
         jLabel37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/IStart.png"))); // NOI18N
-        PStart.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 130, 580, 170));
+        PStart.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 580, 170));
 
         MainPanel.add(PStart, "CStart");
 
@@ -2132,7 +2132,7 @@ public class JApplet extends javax.swing.JApplet {
         PTask_25.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel90.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel90.setText("Виберіть напрямний стовбець");
+        jLabel90.setText("Виберіть напрямний рядок");
         PTask_25.add(jLabel90, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 20, -1, -1));
 
         B_T_25.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
